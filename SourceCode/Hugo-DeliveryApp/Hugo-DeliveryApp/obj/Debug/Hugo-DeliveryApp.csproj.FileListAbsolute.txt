@@ -25,6 +25,7 @@ C:\Users\ceapa\Desktop\POO\KACP_00203919_2EP\SourceCode\Hugo-DeliveryApp\Hugo-De
 C:\Users\ceapa\Desktop\POO\KACP_00203919_2EP\SourceCode\Hugo-DeliveryApp\Hugo-DeliveryApp\obj\Debug\Hugo-DeliveryApp.csprojAssemblyReference.cache
 C:\Users\ceapa\Desktop\POO\KACP_00203919_2EP\SourceCode\Hugo-DeliveryApp\Hugo-DeliveryApp\obj\Debug\Hugo_DeliveryApp.exe.config
 C:\Users\ceapa\Desktop\POO\KACP_00203919_2EP\SourceCode\Hugo-DeliveryApp\Hugo-DeliveryApp\obj\Debug\Hugo_DeliveryApp.Form1.resources
+C:\Users\ceapa\Desktop\POO\KACP_00203919_2EP\SourceCode\Hugo-DeliveryApp\Hugo-DeliveryApp\obj\Debug\Hugo_DeliveryApp.frmCambiarContrasena.resources
 C:\Users\ceapa\Desktop\POO\KACP_00203919_2EP\SourceCode\Hugo-DeliveryApp\Hugo-DeliveryApp\obj\Debug\Hugo_DeliveryApp.frmPrincipal.resources
 C:\Users\ceapa\Desktop\POO\KACP_00203919_2EP\SourceCode\Hugo-DeliveryApp\Hugo-DeliveryApp\obj\Debug\Hugo_DeliveryApp.Properties.Resources.resources
 C:\Users\ceapa\Desktop\POO\KACP_00203919_2EP\SourceCode\Hugo-DeliveryApp\Hugo-DeliveryApp\obj\Debug\Hugo-DeliveryApp.csproj.GenerateResource.cache

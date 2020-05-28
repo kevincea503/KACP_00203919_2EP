@@ -15,10 +15,14 @@
         <e p="Form1.cs" t="Include" />
         <e p="Form1.Designer.cs" t="Include" />
         <e p="Form1.resx" t="Include" />
+        <e p="frmCambiarContrasena.cs" t="Include" />
+        <e p="frmCambiarContrasena.Designer.cs" t="Include" />
+        <e p="frmCambiarContrasena.resx" t="Include" />
         <e p="frmPrincipal.cs" t="Include" />
         <e p="frmPrincipal.Designer.cs" t="Include" />
         <e p="frmPrincipal.resx" t="Include" />
         <e p="Hugo-DeliveryApp.csproj" t="IncludeRecursive" />
+        <e p="InvalidFormatException.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
         <e p="Orden.cs" t="Include" />
         <e p="OrdenDAO.cs" t="Include" />

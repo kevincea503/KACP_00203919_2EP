@@ -33,7 +33,7 @@ namespace Hugo_DeliveryApp
 
             ConnectioDB.ExecuteNonQuery(sql);
         }
-        
+
         
         public static void eliminar(string prod)
         {

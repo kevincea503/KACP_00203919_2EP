@@ -37,7 +37,7 @@
             this.cmbUsuarioInicio = new System.Windows.Forms.ComboBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnIniciarSesion = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnCambiarContra = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -45,7 +45,7 @@
             // 
             this.label1.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.label1.Location = new System.Drawing.Point(349, 109);
+            this.label1.Location = new System.Drawing.Point(349, 108);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(98, 37);
             this.label1.TabIndex = 0;
@@ -55,7 +55,7 @@
             // 
             this.label2.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.label2.Location = new System.Drawing.Point(335, 214);
+            this.label2.Location = new System.Drawing.Point(335, 213);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(133, 37);
             this.label2.TabIndex = 1;
@@ -73,7 +73,7 @@
             this.cmbUsuarioInicio.FormattingEnabled = true;
             this.cmbUsuarioInicio.Location = new System.Drawing.Point(465, 112);
             this.cmbUsuarioInicio.Name = "cmbUsuarioInicio";
-            this.cmbUsuarioInicio.Size = new System.Drawing.Size(183, 23);
+            this.cmbUsuarioInicio.Size = new System.Drawing.Size(182, 23);
             this.cmbUsuarioInicio.TabIndex = 3;
             // 
             // pictureBox1
@@ -100,18 +100,19 @@
             this.btnIniciarSesion.UseVisualStyleBackColor = false;
             this.btnIniciarSesion.Click += new System.EventHandler(this.btnIniciarSesion_Click);
             // 
-            // button1
+            // btnCambiarContra
             // 
-            this.button1.BackColor = System.Drawing.Color.White;
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular,
+            this.btnCambiarContra.BackColor = System.Drawing.Color.White;
+            this.btnCambiarContra.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.button1.ForeColor = System.Drawing.Color.Purple;
-            this.button1.Location = new System.Drawing.Point(306, 329);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(175, 45);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Cambiar contraseña";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnCambiarContra.ForeColor = System.Drawing.Color.Purple;
+            this.btnCambiarContra.Location = new System.Drawing.Point(306, 329);
+            this.btnCambiarContra.Name = "btnCambiarContra";
+            this.btnCambiarContra.Size = new System.Drawing.Size(175, 45);
+            this.btnCambiarContra.TabIndex = 6;
+            this.btnCambiarContra.Text = "Cambiar contraseña";
+            this.btnCambiarContra.UseVisualStyleBackColor = false;
+            this.btnCambiarContra.Click += new System.EventHandler(this.btnCambiarContra_Click);
             // 
             // Form1
             // 
@@ -119,7 +120,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(708, 458);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnCambiarContra);
             this.Controls.Add(this.btnIniciarSesion);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.cmbUsuarioInicio);
@@ -144,6 +145,6 @@
         private System.Windows.Forms.TextBox txtContrasenaInicio;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnIniciarSesion;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnCambiarContra;
     }
 }

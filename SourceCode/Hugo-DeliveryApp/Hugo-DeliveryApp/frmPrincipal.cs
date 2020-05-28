@@ -114,7 +114,9 @@ namespace Hugo_DeliveryApp
                 tabControl1.TabPages[0].Parent = null;
                 tabControl1.TabPages[0].Parent = null;
                 tabControl1.TabPages[0].Parent = null;
-                tabControl1.TabPages[10].Parent = null;
+                tabControl1.TabPages[0].Parent = null;
+                tabControl1.TabPages[4].Parent = null;
+
                 actualizarProducto();
 
             }
@@ -271,14 +273,7 @@ namespace Hugo_DeliveryApp
             }
 
         }
-
-
-        private void label13_Click(object sender, EventArgs e) //  -------- eliminar --------
-        {
-            throw new System.NotImplementedException();
-        }
-
-
+        
         private void btnAgregarDir_Click(object sender, EventArgs e)
         {
             if (txtDireccion.Equals(""))
@@ -335,12 +330,6 @@ namespace Hugo_DeliveryApp
         }
 
 
-        private void tabPage9_Click(object sender, EventArgs e)
-        {
-            throw new System.NotImplementedException();
-        }
-
-
         private void button1_Click_1(object sender, EventArgs e) // Agregar pedodos
         {
             
@@ -360,17 +349,34 @@ namespace Hugo_DeliveryApp
 
         private void btnEliminarPed_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("¿Seguro que desea eliminar el pedido con id " + txtPedidoDelete.Text + "?", 
-                "Atención", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            try
             {
-                OrdenDAO.eliminar(Convert.ToInt32(txtPedidoDelete.Text));
+                if (Convert.ToInt32(txtPedidoDelete.Text) > 0)
+                {
+                    if (MessageBox.Show("¿Seguro que desea eliminar el pedido con id " + txtPedidoDelete.Text + "?", 
+                        "Atención", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                    {
+                        OrdenDAO.eliminar(Convert.ToInt32(txtPedidoDelete.Text));
                 
-                MessageBox.Show("Pedido eliminado exitosamente", 
-                    "Hugo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show("Pedido eliminado exitosamente", 
+                            "Hugo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             
-                actualizarPedidos();
+                        actualizarPedidos();
+                    }
+                
+                }
+                else
+                {
+                    throw new InvalidFormatException("Error: Por favor verifique que los datos a ingresar sean validos");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+
             }
             
+
         }
 
 

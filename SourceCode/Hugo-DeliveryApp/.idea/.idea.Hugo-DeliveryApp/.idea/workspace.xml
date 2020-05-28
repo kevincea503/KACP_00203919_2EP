@@ -6,8 +6,21 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Hugo-DeliveryApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Hugo-DeliveryApp/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hugo-DeliveryApp/Form1.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hugo-DeliveryApp/Form1.Designer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hugo-DeliveryApp/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hugo-DeliveryApp/Form1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hugo-DeliveryApp/Form1.resx" beforeDir="false" afterPath="$PROJECT_DIR$/Hugo-DeliveryApp/Form1.resx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hugo-DeliveryApp/Hugo-DeliveryApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Hugo-DeliveryApp/Hugo-DeliveryApp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hugo-DeliveryApp/ProductDAO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hugo-DeliveryApp/ProductDAO.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hugo-DeliveryApp/UsuarioDAO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hugo-DeliveryApp/UsuarioDAO.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hugo-DeliveryApp/bin/Debug/Hugo_DeliveryApp.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Hugo-DeliveryApp/bin/Debug/Hugo_DeliveryApp.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hugo-DeliveryApp/bin/Debug/Hugo_DeliveryApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Hugo-DeliveryApp/bin/Debug/Hugo_DeliveryApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hugo-DeliveryApp/frmPrincipal.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hugo-DeliveryApp/frmPrincipal.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hugo-DeliveryApp/frmPrincipal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hugo-DeliveryApp/frmPrincipal.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hugo-DeliveryApp/frmPrincipal.resx" beforeDir="false" afterPath="$PROJECT_DIR$/Hugo-DeliveryApp/frmPrincipal.resx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hugo-DeliveryApp/obj/Debug/Hugo-DeliveryApp.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Hugo-DeliveryApp/obj/Debug/Hugo-DeliveryApp.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hugo-DeliveryApp/obj/Debug/Hugo-DeliveryApp.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Hugo-DeliveryApp/obj/Debug/Hugo-DeliveryApp.csproj.GenerateResource.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hugo-DeliveryApp/obj/Debug/Hugo-DeliveryApp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Hugo-DeliveryApp/obj/Debug/Hugo-DeliveryApp.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hugo-DeliveryApp/obj/Debug/Hugo_DeliveryApp.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Hugo-DeliveryApp/obj/Debug/Hugo_DeliveryApp.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hugo-DeliveryApp/obj/Debug/Hugo_DeliveryApp.frmPrincipal.resources" beforeDir="false" afterPath="$PROJECT_DIR$/Hugo-DeliveryApp/obj/Debug/Hugo_DeliveryApp.frmPrincipal.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hugo-DeliveryApp/obj/Debug/Hugo_DeliveryApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Hugo-DeliveryApp/obj/Debug/Hugo_DeliveryApp.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,11 +37,14 @@
     <setting file="file://$PROJECT_DIR$/Hugo-DeliveryApp/DireccionDAO.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hugo-DeliveryApp/Direccion.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hugo-DeliveryApp/frmPrincipal.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hugo-DeliveryApp/frmCambiarContrasena.Designer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hugo-DeliveryApp/frmPrincipal.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hugo-DeliveryApp/BusinessDAO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hugo-DeliveryApp/frmCambiarContrasena.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hugo-DeliveryApp/Business.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hugo-DeliveryApp/ProductDAO.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hugo-DeliveryApp/Product.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hugo-DeliveryApp/InvalidFormatException.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hugo-DeliveryApp/Usuario.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hugo-DeliveryApp/UsuarioDAO.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hugo-DeliveryApp/Form1.cs" root0="FORCE_HIGHLIGHTING" />
@@ -37,19 +53,22 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Hugo-DeliveryApp/ConnectioDB.cs" />
-        <option value="$PROJECT_DIR$/Hugo-DeliveryApp/Form1.cs" />
-        <option value="$PROJECT_DIR$/Hugo-DeliveryApp/frmPrincipal.Designer.cs" />
         <option value="$PROJECT_DIR$/Hugo-DeliveryApp/Usuario.cs" />
         <option value="$PROJECT_DIR$/Hugo-DeliveryApp/BusinessDAO.cs" />
         <option value="$PROJECT_DIR$/Hugo-DeliveryApp/Business.cs" />
         <option value="$PROJECT_DIR$/Hugo-DeliveryApp/Product.cs" />
-        <option value="$PROJECT_DIR$/Hugo-DeliveryApp/ProductDAO.cs" />
         <option value="$PROJECT_DIR$/Hugo-DeliveryApp/Direccion.cs" />
-        <option value="$PROJECT_DIR$/Hugo-DeliveryApp/UsuarioDAO.cs" />
         <option value="$PROJECT_DIR$/Hugo-DeliveryApp/DireccionDAO.cs" />
         <option value="$PROJECT_DIR$/Hugo-DeliveryApp/Orden.cs" />
         <option value="$PROJECT_DIR$/Hugo-DeliveryApp/OrdenDAO.cs" />
+        <option value="$PROJECT_DIR$/Hugo-DeliveryApp/InvalidFormatException.cs" />
+        <option value="$PROJECT_DIR$/Hugo-DeliveryApp/frmCambiarContrasena.Designer.cs" />
+        <option value="$PROJECT_DIR$/Hugo-DeliveryApp/Form1.cs" />
+        <option value="$PROJECT_DIR$/Hugo-DeliveryApp/ProductDAO.cs" />
+        <option value="$PROJECT_DIR$/Hugo-DeliveryApp/UsuarioDAO.cs" />
+        <option value="$PROJECT_DIR$/Hugo-DeliveryApp/frmCambiarContrasena.cs" />
         <option value="$PROJECT_DIR$/Hugo-DeliveryApp/frmPrincipal.cs" />
+        <option value="$PROJECT_DIR$/Hugo-DeliveryApp/frmPrincipal.Designer.cs" />
       </list>
     </option>
   </component>
@@ -99,6 +118,8 @@
       <workItem from="1590594897096" duration="21000" />
       <workItem from="1590595150220" duration="9535000" />
       <workItem from="1590606495680" duration="34127000" />
+      <workItem from="1590646208685" duration="5343000" />
+      <workItem from="1590652311416" duration="2525000" />
     </task>
     <servers />
   </component>
@@ -112,28 +133,30 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1590645795681">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1590654946634">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590645795681" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1590645795680">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590654946634" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1590654946634">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590645795680" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1590645795680">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590654946634" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1590654946633">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590645795680" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1590645795680">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590654946633" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1590654946634">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590645795680" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590654946634" />
   </component>
 </project>

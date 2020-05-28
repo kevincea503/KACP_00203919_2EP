@@ -31,6 +31,8 @@ namespace Hugo_DeliveryApp
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources =
+                new System.ComponentModel.ComponentResourceManager(typeof(frmPrincipal));
             this.lblBienvenido = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
@@ -48,78 +50,78 @@ namespace Hugo_DeliveryApp
             this.btnEliminarU = new System.Windows.Forms.Button();
             this.cmbEliminar = new System.Windows.Forms.ComboBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.txtNombreN = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.txtDescrpN = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.btnAgregarN = new System.Windows.Forms.Button();
+            this.btnActualizaN = new System.Windows.Forms.Button();
+            this.dgvNegocios = new System.Windows.Forms.DataGridView();
             this.label9 = new System.Windows.Forms.Label();
+            this.btnAgregarN = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtDescrpN = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtNombreN = new System.Windows.Forms.TextBox();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
             this.btnEliminarN = new System.Windows.Forms.Button();
             this.cmbNegocio = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.dgvNegocios = new System.Windows.Forms.DataGridView();
-            this.btnActualizaN = new System.Windows.Forms.Button();
-            this.label10 = new System.Windows.Forms.Label();
-            this.txtProducto = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.cmbProducto = new System.Windows.Forms.ComboBox();
-            this.btnAgregarProduc = new System.Windows.Forms.Button();
-            this.dgvProductos = new System.Windows.Forms.DataGridView();
+            this.tabPage5 = new System.Windows.Forms.TabPage();
             this.btnActualizarProd = new System.Windows.Forms.Button();
-            this.cmbEliminarP = new System.Windows.Forms.ComboBox();
-            this.label12 = new System.Windows.Forms.Label();
+            this.dgvProductos = new System.Windows.Forms.DataGridView();
+            this.btnAgregarProduc = new System.Windows.Forms.Button();
+            this.cmbProducto = new System.Windows.Forms.ComboBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.txtProducto = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.tabPage6 = new System.Windows.Forms.TabPage();
             this.btnEliminarP = new System.Windows.Forms.Button();
+            this.label12 = new System.Windows.Forms.Label();
+            this.cmbEliminarP = new System.Windows.Forms.ComboBox();
             this.tabPage7 = new System.Windows.Forms.TabPage();
-            this.label13 = new System.Windows.Forms.Label();
-            this.txtDireccion = new System.Windows.Forms.TextBox();
-            this.tabPage8 = new System.Windows.Forms.TabPage();
-            this.cmbNuevaDir = new System.Windows.Forms.ComboBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.btnAgregarDir = new System.Windows.Forms.Button();
-            this.dgvDirecciones = new System.Windows.Forms.DataGridView();
-            this.label16 = new System.Windows.Forms.Label();
             this.btnActualizarDir = new System.Windows.Forms.Button();
-            this.tabPage9 = new System.Windows.Forms.TabPage();
-            this.label17 = new System.Windows.Forms.Label();
-            this.txtNuevaDir = new System.Windows.Forms.TextBox();
-            this.btnAgragarDir = new System.Windows.Forms.Button();
+            this.label16 = new System.Windows.Forms.Label();
+            this.dgvDirecciones = new System.Windows.Forms.DataGridView();
+            this.btnAgregarDir = new System.Windows.Forms.Button();
+            this.txtDireccion = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.tabPage8 = new System.Windows.Forms.TabPage();
             this.btnEliminarDir = new System.Windows.Forms.Button();
-            this.label18 = new System.Windows.Forms.Label();
-            this.cmbPedidoDir = new System.Windows.Forms.ComboBox();
-            this.label19 = new System.Windows.Forms.Label();
-            this.cmbPedidoProd = new System.Windows.Forms.ComboBox();
-            this.label20 = new System.Windows.Forms.Label();
-            this.btnEnviarPed = new System.Windows.Forms.Button();
-            this.dtpFechaPedido = new System.Windows.Forms.DateTimePicker();
-            this.dgvPedidos = new System.Windows.Forms.DataGridView();
+            this.btnAgragarDir = new System.Windows.Forms.Button();
+            this.txtNuevaDir = new System.Windows.Forms.TextBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.cmbNuevaDir = new System.Windows.Forms.ComboBox();
+            this.tabPage9 = new System.Windows.Forms.TabPage();
             this.button1 = new System.Windows.Forms.Button();
+            this.dgvPedidos = new System.Windows.Forms.DataGridView();
+            this.dtpFechaPedido = new System.Windows.Forms.DateTimePicker();
+            this.btnEnviarPed = new System.Windows.Forms.Button();
+            this.label20 = new System.Windows.Forms.Label();
+            this.cmbPedidoProd = new System.Windows.Forms.ComboBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.cmbPedidoDir = new System.Windows.Forms.ComboBox();
+            this.label18 = new System.Windows.Forms.Label();
             this.tabPage10 = new System.Windows.Forms.TabPage();
-            this.label21 = new System.Windows.Forms.Label();
-            this.txtPedidoDelete = new System.Windows.Forms.TextBox();
-            this.label22 = new System.Windows.Forms.Label();
             this.btnEliminarPed = new System.Windows.Forms.Button();
+            this.label22 = new System.Windows.Forms.Label();
+            this.txtPedidoDelete = new System.Windows.Forms.TextBox();
+            this.label21 = new System.Windows.Forms.Label();
             this.tabPage11 = new System.Windows.Forms.TabPage();
-            this.dgvPedidosAdmin = new System.Windows.Forms.DataGridView();
             this.btnVerPedidos = new System.Windows.Forms.Button();
+            this.dgvPedidosAdmin = new System.Windows.Forms.DataGridView();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize) (this.dgvUsuarios)).BeginInit();
             this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize) (this.dgvNegocios)).BeginInit();
             this.tabPage4.SuspendLayout();
             this.tabPage5.SuspendLayout();
-            this.tabPage6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize) (this.dgvNegocios)).BeginInit();
             ((System.ComponentModel.ISupportInitialize) (this.dgvProductos)).BeginInit();
+            this.tabPage6.SuspendLayout();
             this.tabPage7.SuspendLayout();
-            this.tabPage8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize) (this.dgvDirecciones)).BeginInit();
+            this.tabPage8.SuspendLayout();
             this.tabPage9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize) (this.dgvPedidos)).BeginInit();
             this.tabPage10.SuspendLayout();
@@ -277,10 +279,10 @@ namespace Hugo_DeliveryApp
             // 
             this.tabPage2.Controls.Add(this.btnEliminarU);
             this.tabPage2.Controls.Add(this.cmbEliminar);
-            this.tabPage2.Location = new System.Drawing.Point(4, 24);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(751, 419);
+            this.tabPage2.Size = new System.Drawing.Size(751, 421);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Eliminar usuarios";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -318,95 +320,45 @@ namespace Hugo_DeliveryApp
             this.tabPage3.Controls.Add(this.label3);
             this.tabPage3.Controls.Add(this.label2);
             this.tabPage3.Controls.Add(this.txtNombreN);
-            this.tabPage3.Location = new System.Drawing.Point(4, 24);
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(751, 419);
+            this.tabPage3.Size = new System.Drawing.Size(751, 421);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Agregar negocios";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
-            // tabPage4
+            // btnActualizaN
             // 
-            this.tabPage4.Controls.Add(this.btnEliminarN);
-            this.tabPage4.Controls.Add(this.cmbNegocio);
-            this.tabPage4.Controls.Add(this.label8);
-            this.tabPage4.Controls.Add(this.label5);
-            this.tabPage4.Location = new System.Drawing.Point(4, 24);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(751, 419);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Eliminar Negocios";
-            this.tabPage4.UseVisualStyleBackColor = true;
+            this.btnActualizaN.BackColor = System.Drawing.Color.White;
+            this.btnActualizaN.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular,
+                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.btnActualizaN.ForeColor = System.Drawing.Color.Navy;
+            this.btnActualizaN.Location = new System.Drawing.Point(569, 282);
+            this.btnActualizaN.Name = "btnActualizaN";
+            this.btnActualizaN.Size = new System.Drawing.Size(150, 40);
+            this.btnActualizaN.TabIndex = 22;
+            this.btnActualizaN.Text = "ActualizarNegocios\r\n\r\n";
+            this.btnActualizaN.UseVisualStyleBackColor = false;
+            this.btnActualizaN.Click += new System.EventHandler(this.button1_Click);
             // 
-            // tabPage5
+            // dgvNegocios
             // 
-            this.tabPage5.Controls.Add(this.btnActualizarProd);
-            this.tabPage5.Controls.Add(this.dgvProductos);
-            this.tabPage5.Controls.Add(this.btnAgregarProduc);
-            this.tabPage5.Controls.Add(this.cmbProducto);
-            this.tabPage5.Controls.Add(this.label11);
-            this.tabPage5.Controls.Add(this.txtProducto);
-            this.tabPage5.Controls.Add(this.label10);
-            this.tabPage5.Location = new System.Drawing.Point(4, 24);
-            this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(751, 419);
-            this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "Agregar productos";
-            this.tabPage5.UseVisualStyleBackColor = true;
+            this.dgvNegocios.ColumnHeadersHeightSizeMode =
+                System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvNegocios.Location = new System.Drawing.Point(28, 200);
+            this.dgvNegocios.Name = "dgvNegocios";
+            this.dgvNegocios.Size = new System.Drawing.Size(518, 207);
+            this.dgvNegocios.TabIndex = 21;
             // 
-            // tabPage6
+            // label9
             // 
-            this.tabPage6.Controls.Add(this.btnEliminarP);
-            this.tabPage6.Controls.Add(this.label12);
-            this.tabPage6.Controls.Add(this.cmbEliminarP);
-            this.tabPage6.Location = new System.Drawing.Point(4, 24);
-            this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(751, 419);
-            this.tabPage6.TabIndex = 5;
-            this.tabPage6.Text = "Eliminar Productos";
-            this.tabPage6.UseVisualStyleBackColor = true;
-            // 
-            // txtNombreN
-            // 
-            this.txtNombreN.Location = new System.Drawing.Point(103, 56);
-            this.txtNombreN.Name = "txtNombreN";
-            this.txtNombreN.Size = new System.Drawing.Size(205, 23);
-            this.txtNombreN.TabIndex = 0;
-            // 
-            // label2
-            // 
-            this.label2.Location = new System.Drawing.Point(16, 15);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(114, 34);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Agregar negocio:";
-            // 
-            // label3
-            // 
-            this.label3.Location = new System.Drawing.Point(29, 62);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(68, 34);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Nombre:";
-            // 
-            // txtDescrpN
-            // 
-            this.txtDescrpN.Location = new System.Drawing.Point(103, 123);
-            this.txtDescrpN.Name = "txtDescrpN";
-            this.txtDescrpN.Size = new System.Drawing.Size(399, 23);
-            this.txtDescrpN.TabIndex = 3;
-            // 
-            // label4
-            // 
-            this.label4.Location = new System.Drawing.Point(16, 126);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(75, 34);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "Descripción:";
+            this.label9.Location = new System.Drawing.Point(3, 167);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(510, 23);
+            this.label9.TabIndex = 20;
+            this.label9.Text = "_________________________________________________________________________________" +
+                               "_______________";
             // 
             // btnAgregarN
             // 
@@ -422,14 +374,57 @@ namespace Hugo_DeliveryApp
             this.btnAgregarN.UseVisualStyleBackColor = false;
             this.btnAgregarN.Click += new System.EventHandler(this.btnAgregarN_Click);
             // 
-            // label9
+            // label4
             // 
-            this.label9.Location = new System.Drawing.Point(3, 167);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(510, 23);
-            this.label9.TabIndex = 20;
-            this.label9.Text = "_________________________________________________________________________________" +
-                               "_______________";
+            this.label4.Location = new System.Drawing.Point(16, 126);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(75, 33);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "Descripción:";
+            // 
+            // txtDescrpN
+            // 
+            this.txtDescrpN.Location = new System.Drawing.Point(103, 123);
+            this.txtDescrpN.Name = "txtDescrpN";
+            this.txtDescrpN.Size = new System.Drawing.Size(399, 23);
+            this.txtDescrpN.TabIndex = 3;
+            // 
+            // label3
+            // 
+            this.label3.Location = new System.Drawing.Point(29, 62);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(68, 33);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Nombre:";
+            // 
+            // label2
+            // 
+            this.label2.Location = new System.Drawing.Point(16, 15);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(114, 33);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Agregar negocio:";
+            // 
+            // txtNombreN
+            // 
+            this.txtNombreN.Location = new System.Drawing.Point(103, 57);
+            this.txtNombreN.Name = "txtNombreN";
+            this.txtNombreN.Size = new System.Drawing.Size(205, 23);
+            this.txtNombreN.TabIndex = 0;
+            // 
+            // tabPage4
+            // 
+            this.tabPage4.Controls.Add(this.btnEliminarN);
+            this.tabPage4.Controls.Add(this.cmbNegocio);
+            this.tabPage4.Controls.Add(this.label8);
+            this.tabPage4.Controls.Add(this.label5);
+            this.tabPage4.Location = new System.Drawing.Point(4, 22);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage4.Size = new System.Drawing.Size(751, 421);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "Eliminar Negocios";
+            this.tabPage4.UseVisualStyleBackColor = true;
             // 
             // btnEliminarN
             // 
@@ -457,7 +452,7 @@ namespace Hugo_DeliveryApp
             // 
             this.label8.Location = new System.Drawing.Point(29, 80);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(75, 34);
+            this.label8.Size = new System.Drawing.Size(75, 33);
             this.label8.TabIndex = 21;
             this.label8.Text = "Nombre:";
             // 
@@ -465,86 +460,26 @@ namespace Hugo_DeliveryApp
             // 
             this.label5.Location = new System.Drawing.Point(16, 27);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(114, 34);
+            this.label5.Size = new System.Drawing.Size(114, 33);
             this.label5.TabIndex = 20;
             this.label5.Text = "Eliminar negocio:";
             // 
-            // dgvNegocios
+            // tabPage5
             // 
-            this.dgvNegocios.ColumnHeadersHeightSizeMode =
-                System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvNegocios.Location = new System.Drawing.Point(28, 200);
-            this.dgvNegocios.Name = "dgvNegocios";
-            this.dgvNegocios.Size = new System.Drawing.Size(518, 207);
-            this.dgvNegocios.TabIndex = 21;
-            // 
-            // btnActualizaN
-            // 
-            this.btnActualizaN.BackColor = System.Drawing.Color.White;
-            this.btnActualizaN.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.btnActualizaN.ForeColor = System.Drawing.Color.Navy;
-            this.btnActualizaN.Location = new System.Drawing.Point(569, 282);
-            this.btnActualizaN.Name = "btnActualizaN";
-            this.btnActualizaN.Size = new System.Drawing.Size(150, 40);
-            this.btnActualizaN.TabIndex = 22;
-            this.btnActualizaN.Text = "ActualizarNegocios\r\n\r\n";
-            this.btnActualizaN.UseVisualStyleBackColor = false;
-            this.btnActualizaN.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // label10
-            // 
-            this.label10.Location = new System.Drawing.Point(23, 40);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(143, 30);
-            this.label10.TabIndex = 0;
-            this.label10.Text = "Nombre del producto:";
-            // 
-            // txtProducto
-            // 
-            this.txtProducto.Location = new System.Drawing.Point(168, 38);
-            this.txtProducto.Name = "txtProducto";
-            this.txtProducto.Size = new System.Drawing.Size(198, 23);
-            this.txtProducto.TabIndex = 1;
-            // 
-            // label11
-            // 
-            this.label11.Location = new System.Drawing.Point(41, 87);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(125, 30);
-            this.label11.TabIndex = 2;
-            this.label11.Text = "Agregar al negocio:\r\n";
-            // 
-            // cmbProducto
-            // 
-            this.cmbProducto.FormattingEnabled = true;
-            this.cmbProducto.Location = new System.Drawing.Point(168, 90);
-            this.cmbProducto.Name = "cmbProducto";
-            this.cmbProducto.Size = new System.Drawing.Size(197, 23);
-            this.cmbProducto.TabIndex = 3;
-            // 
-            // btnAgregarProduc
-            // 
-            this.btnAgregarProduc.BackColor = System.Drawing.Color.White;
-            this.btnAgregarProduc.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.btnAgregarProduc.ForeColor = System.Drawing.Color.Navy;
-            this.btnAgregarProduc.Location = new System.Drawing.Point(439, 56);
-            this.btnAgregarProduc.Name = "btnAgregarProduc";
-            this.btnAgregarProduc.Size = new System.Drawing.Size(150, 40);
-            this.btnAgregarProduc.TabIndex = 24;
-            this.btnAgregarProduc.Text = "Agregar producto\r\n";
-            this.btnAgregarProduc.UseVisualStyleBackColor = false;
-            this.btnAgregarProduc.Click += new System.EventHandler(this.btnAgregarProduc_Click);
-            // 
-            // dgvProductos
-            // 
-            this.dgvProductos.ColumnHeadersHeightSizeMode =
-                System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvProductos.Location = new System.Drawing.Point(19, 149);
-            this.dgvProductos.Name = "dgvProductos";
-            this.dgvProductos.Size = new System.Drawing.Size(605, 256);
-            this.dgvProductos.TabIndex = 25;
+            this.tabPage5.Controls.Add(this.btnActualizarProd);
+            this.tabPage5.Controls.Add(this.dgvProductos);
+            this.tabPage5.Controls.Add(this.btnAgregarProduc);
+            this.tabPage5.Controls.Add(this.cmbProducto);
+            this.tabPage5.Controls.Add(this.label11);
+            this.tabPage5.Controls.Add(this.txtProducto);
+            this.tabPage5.Controls.Add(this.label10);
+            this.tabPage5.Location = new System.Drawing.Point(4, 22);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage5.Size = new System.Drawing.Size(751, 421);
+            this.tabPage5.TabIndex = 4;
+            this.tabPage5.Text = "Agregar productos";
+            this.tabPage5.UseVisualStyleBackColor = true;
             // 
             // btnActualizarProd
             // 
@@ -560,21 +495,72 @@ namespace Hugo_DeliveryApp
             this.btnActualizarProd.UseVisualStyleBackColor = false;
             this.btnActualizarProd.Click += new System.EventHandler(this.btnActualizarProd_Click);
             // 
-            // cmbEliminarP
+            // dgvProductos
             // 
-            this.cmbEliminarP.FormattingEnabled = true;
-            this.cmbEliminarP.Location = new System.Drawing.Point(285, 62);
-            this.cmbEliminarP.Name = "cmbEliminarP";
-            this.cmbEliminarP.Size = new System.Drawing.Size(252, 23);
-            this.cmbEliminarP.TabIndex = 0;
+            this.dgvProductos.ColumnHeadersHeightSizeMode =
+                System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvProductos.Location = new System.Drawing.Point(19, 149);
+            this.dgvProductos.Name = "dgvProductos";
+            this.dgvProductos.Size = new System.Drawing.Size(605, 256);
+            this.dgvProductos.TabIndex = 25;
             // 
-            // label12
+            // btnAgregarProduc
             // 
-            this.label12.Location = new System.Drawing.Point(119, 62);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(139, 34);
-            this.label12.TabIndex = 1;
-            this.label12.Text = "Producto a eliminar:\r\n";
+            this.btnAgregarProduc.BackColor = System.Drawing.Color.White;
+            this.btnAgregarProduc.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular,
+                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.btnAgregarProduc.ForeColor = System.Drawing.Color.Navy;
+            this.btnAgregarProduc.Location = new System.Drawing.Point(439, 57);
+            this.btnAgregarProduc.Name = "btnAgregarProduc";
+            this.btnAgregarProduc.Size = new System.Drawing.Size(150, 40);
+            this.btnAgregarProduc.TabIndex = 24;
+            this.btnAgregarProduc.Text = "Agregar producto\r\n";
+            this.btnAgregarProduc.UseVisualStyleBackColor = false;
+            this.btnAgregarProduc.Click += new System.EventHandler(this.btnAgregarProduc_Click);
+            // 
+            // cmbProducto
+            // 
+            this.cmbProducto.FormattingEnabled = true;
+            this.cmbProducto.Location = new System.Drawing.Point(168, 90);
+            this.cmbProducto.Name = "cmbProducto";
+            this.cmbProducto.Size = new System.Drawing.Size(196, 23);
+            this.cmbProducto.TabIndex = 3;
+            // 
+            // label11
+            // 
+            this.label11.Location = new System.Drawing.Point(41, 87);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(125, 30);
+            this.label11.TabIndex = 2;
+            this.label11.Text = "Agregar al negocio:\r\n";
+            // 
+            // txtProducto
+            // 
+            this.txtProducto.Location = new System.Drawing.Point(168, 38);
+            this.txtProducto.Name = "txtProducto";
+            this.txtProducto.Size = new System.Drawing.Size(198, 23);
+            this.txtProducto.TabIndex = 1;
+            // 
+            // label10
+            // 
+            this.label10.Location = new System.Drawing.Point(23, 40);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(143, 30);
+            this.label10.TabIndex = 0;
+            this.label10.Text = "Nombre del producto:";
+            // 
+            // tabPage6
+            // 
+            this.tabPage6.Controls.Add(this.btnEliminarP);
+            this.tabPage6.Controls.Add(this.label12);
+            this.tabPage6.Controls.Add(this.cmbEliminarP);
+            this.tabPage6.Location = new System.Drawing.Point(4, 22);
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage6.Size = new System.Drawing.Size(751, 421);
+            this.tabPage6.TabIndex = 5;
+            this.tabPage6.Text = "Eliminar Productos";
+            this.tabPage6.UseVisualStyleBackColor = true;
             // 
             // btnEliminarP
             // 
@@ -590,6 +576,22 @@ namespace Hugo_DeliveryApp
             this.btnEliminarP.UseVisualStyleBackColor = false;
             this.btnEliminarP.Click += new System.EventHandler(this.btnEliminarP_Click);
             // 
+            // label12
+            // 
+            this.label12.Location = new System.Drawing.Point(119, 62);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(139, 33);
+            this.label12.TabIndex = 1;
+            this.label12.Text = "Producto a eliminar:\r\n";
+            // 
+            // cmbEliminarP
+            // 
+            this.cmbEliminarP.FormattingEnabled = true;
+            this.cmbEliminarP.Location = new System.Drawing.Point(285, 62);
+            this.cmbEliminarP.Name = "cmbEliminarP";
+            this.cmbEliminarP.Size = new System.Drawing.Size(252, 23);
+            this.cmbEliminarP.TabIndex = 0;
+            // 
             // tabPage7
             // 
             this.tabPage7.Controls.Add(this.btnActualizarDir);
@@ -598,103 +600,13 @@ namespace Hugo_DeliveryApp
             this.tabPage7.Controls.Add(this.btnAgregarDir);
             this.tabPage7.Controls.Add(this.txtDireccion);
             this.tabPage7.Controls.Add(this.label13);
-            this.tabPage7.Location = new System.Drawing.Point(4, 24);
+            this.tabPage7.Location = new System.Drawing.Point(4, 22);
             this.tabPage7.Name = "tabPage7";
             this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(751, 419);
+            this.tabPage7.Size = new System.Drawing.Size(751, 421);
             this.tabPage7.TabIndex = 6;
             this.tabPage7.Text = "Agreagar dirección de envio";
             this.tabPage7.UseVisualStyleBackColor = true;
-            // 
-            // label13
-            // 
-            this.label13.Location = new System.Drawing.Point(27, 51);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(125, 30);
-            this.label13.TabIndex = 0;
-            this.label13.Text = "Dirección de envío:";
-            this.label13.Click += new System.EventHandler(this.label13_Click);
-            // 
-            // txtDireccion
-            // 
-            this.txtDireccion.Location = new System.Drawing.Point(158, 51);
-            this.txtDireccion.Name = "txtDireccion";
-            this.txtDireccion.Size = new System.Drawing.Size(404, 23);
-            this.txtDireccion.TabIndex = 1;
-            // 
-            // tabPage8
-            // 
-            this.tabPage8.Controls.Add(this.btnEliminarDir);
-            this.tabPage8.Controls.Add(this.btnAgragarDir);
-            this.tabPage8.Controls.Add(this.txtNuevaDir);
-            this.tabPage8.Controls.Add(this.label17);
-            this.tabPage8.Controls.Add(this.label15);
-            this.tabPage8.Controls.Add(this.label14);
-            this.tabPage8.Controls.Add(this.cmbNuevaDir);
-            this.tabPage8.Location = new System.Drawing.Point(4, 24);
-            this.tabPage8.Name = "tabPage8";
-            this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage8.Size = new System.Drawing.Size(751, 419);
-            this.tabPage8.TabIndex = 7;
-            this.tabPage8.Text = "Editar dirección de envío";
-            this.tabPage8.UseVisualStyleBackColor = true;
-            // 
-            // cmbNuevaDir
-            // 
-            this.cmbNuevaDir.FormattingEnabled = true;
-            this.cmbNuevaDir.Location = new System.Drawing.Point(172, 101);
-            this.cmbNuevaDir.Name = "cmbNuevaDir";
-            this.cmbNuevaDir.Size = new System.Drawing.Size(404, 23);
-            this.cmbNuevaDir.TabIndex = 3;
-            // 
-            // label14
-            // 
-            this.label14.Location = new System.Drawing.Point(31, 101);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(125, 30);
-            this.label14.TabIndex = 4;
-            this.label14.Text = "Dirección de envío:";
-            // 
-            // label15
-            // 
-            this.label15.Location = new System.Drawing.Point(142, 31);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(462, 30);
-            this.label15.TabIndex = 5;
-            this.label15.Text = "Si por alguna razón ha cambiado de dirección, por favor realizar este este cambio" +
-                                "\r\n";
-            // 
-            // btnAgregarDir
-            // 
-            this.btnAgregarDir.BackColor = System.Drawing.Color.White;
-            this.btnAgregarDir.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.btnAgregarDir.ForeColor = System.Drawing.Color.Navy;
-            this.btnAgregarDir.Location = new System.Drawing.Point(584, 41);
-            this.btnAgregarDir.Name = "btnAgregarDir";
-            this.btnAgregarDir.Size = new System.Drawing.Size(150, 40);
-            this.btnAgregarDir.TabIndex = 26;
-            this.btnAgregarDir.Text = "Agregar";
-            this.btnAgregarDir.UseVisualStyleBackColor = false;
-            this.btnAgregarDir.Click += new System.EventHandler(this.btnAgregarDir_Click);
-            // 
-            // dgvDirecciones
-            // 
-            this.dgvDirecciones.ColumnHeadersHeightSizeMode =
-                System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvDirecciones.Location = new System.Drawing.Point(16, 140);
-            this.dgvDirecciones.Name = "dgvDirecciones";
-            this.dgvDirecciones.Size = new System.Drawing.Size(614, 273);
-            this.dgvDirecciones.TabIndex = 27;
-            // 
-            // label16
-            // 
-            this.label16.Location = new System.Drawing.Point(247, 107);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(125, 30);
-            this.label16.TabIndex = 28;
-            this.label16.Text = "Direcciones añadidas";
-            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnActualizarDir
             // 
@@ -710,54 +622,69 @@ namespace Hugo_DeliveryApp
             this.btnActualizarDir.UseVisualStyleBackColor = false;
             this.btnActualizarDir.Click += new System.EventHandler(this.btnActualizarDir_Click);
             // 
-            // tabPage9
+            // label16
             // 
-            this.tabPage9.Controls.Add(this.button1);
-            this.tabPage9.Controls.Add(this.dgvPedidos);
-            this.tabPage9.Controls.Add(this.dtpFechaPedido);
-            this.tabPage9.Controls.Add(this.btnEnviarPed);
-            this.tabPage9.Controls.Add(this.label20);
-            this.tabPage9.Controls.Add(this.cmbPedidoProd);
-            this.tabPage9.Controls.Add(this.label19);
-            this.tabPage9.Controls.Add(this.cmbPedidoDir);
-            this.tabPage9.Controls.Add(this.label18);
-            this.tabPage9.Location = new System.Drawing.Point(4, 24);
-            this.tabPage9.Name = "tabPage9";
-            this.tabPage9.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage9.Size = new System.Drawing.Size(751, 419);
-            this.tabPage9.TabIndex = 8;
-            this.tabPage9.Text = "Solicitar pedido";
-            this.tabPage9.UseVisualStyleBackColor = true;
-            this.tabPage9.Click += new System.EventHandler(this.tabPage9_Click);
+            this.label16.Location = new System.Drawing.Point(247, 107);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(125, 30);
+            this.label16.TabIndex = 28;
+            this.label16.Text = "Direcciones añadidas";
+            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label17
+            // dgvDirecciones
             // 
-            this.label17.Location = new System.Drawing.Point(31, 168);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(125, 30);
-            this.label17.TabIndex = 6;
-            this.label17.Text = "Nueva dirección de envío:";
+            this.dgvDirecciones.ColumnHeadersHeightSizeMode =
+                System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvDirecciones.Location = new System.Drawing.Point(16, 140);
+            this.dgvDirecciones.Name = "dgvDirecciones";
+            this.dgvDirecciones.Size = new System.Drawing.Size(614, 273);
+            this.dgvDirecciones.TabIndex = 27;
             // 
-            // txtNuevaDir
+            // btnAgregarDir
             // 
-            this.txtNuevaDir.Location = new System.Drawing.Point(175, 172);
-            this.txtNuevaDir.Name = "txtNuevaDir";
-            this.txtNuevaDir.Size = new System.Drawing.Size(400, 23);
-            this.txtNuevaDir.TabIndex = 7;
-            // 
-            // btnAgragarDir
-            // 
-            this.btnAgragarDir.BackColor = System.Drawing.Color.White;
-            this.btnAgragarDir.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular,
+            this.btnAgregarDir.BackColor = System.Drawing.Color.White;
+            this.btnAgregarDir.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.btnAgragarDir.ForeColor = System.Drawing.Color.Navy;
-            this.btnAgragarDir.Location = new System.Drawing.Point(306, 228);
-            this.btnAgragarDir.Name = "btnAgragarDir";
-            this.btnAgragarDir.Size = new System.Drawing.Size(150, 40);
-            this.btnAgragarDir.TabIndex = 27;
-            this.btnAgragarDir.Text = "Agregar";
-            this.btnAgragarDir.UseVisualStyleBackColor = false;
-            this.btnAgragarDir.Click += new System.EventHandler(this.btnAgragarDir_Click);
+            this.btnAgregarDir.ForeColor = System.Drawing.Color.Navy;
+            this.btnAgregarDir.Location = new System.Drawing.Point(584, 42);
+            this.btnAgregarDir.Name = "btnAgregarDir";
+            this.btnAgregarDir.Size = new System.Drawing.Size(150, 40);
+            this.btnAgregarDir.TabIndex = 26;
+            this.btnAgregarDir.Text = "Agregar";
+            this.btnAgregarDir.UseVisualStyleBackColor = false;
+            this.btnAgregarDir.Click += new System.EventHandler(this.btnAgregarDir_Click);
+            // 
+            // txtDireccion
+            // 
+            this.txtDireccion.Location = new System.Drawing.Point(157, 51);
+            this.txtDireccion.Name = "txtDireccion";
+            this.txtDireccion.Size = new System.Drawing.Size(404, 23);
+            this.txtDireccion.TabIndex = 1;
+            // 
+            // label13
+            // 
+            this.label13.Location = new System.Drawing.Point(27, 51);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(125, 30);
+            this.label13.TabIndex = 0;
+            this.label13.Text = "Dirección de envío:";
+            // 
+            // tabPage8
+            // 
+            this.tabPage8.Controls.Add(this.btnEliminarDir);
+            this.tabPage8.Controls.Add(this.btnAgragarDir);
+            this.tabPage8.Controls.Add(this.txtNuevaDir);
+            this.tabPage8.Controls.Add(this.label17);
+            this.tabPage8.Controls.Add(this.label15);
+            this.tabPage8.Controls.Add(this.label14);
+            this.tabPage8.Controls.Add(this.cmbNuevaDir);
+            this.tabPage8.Location = new System.Drawing.Point(4, 22);
+            this.tabPage8.Name = "tabPage8";
+            this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage8.Size = new System.Drawing.Size(751, 421);
+            this.tabPage8.TabIndex = 7;
+            this.tabPage8.Text = "Editar dirección de envío";
+            this.tabPage8.UseVisualStyleBackColor = true;
             // 
             // btnEliminarDir
             // 
@@ -773,77 +700,78 @@ namespace Hugo_DeliveryApp
             this.btnEliminarDir.UseVisualStyleBackColor = false;
             this.btnEliminarDir.Click += new System.EventHandler(this.btnEliminarDir_Click);
             // 
-            // label18
+            // btnAgragarDir
             // 
-            this.label18.Location = new System.Drawing.Point(18, 23);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(210, 35);
-            this.label18.TabIndex = 0;
-            this.label18.Text = "Seleccione su dirección de envío:";
-            // 
-            // cmbPedidoDir
-            // 
-            this.cmbPedidoDir.FormattingEnabled = true;
-            this.cmbPedidoDir.Location = new System.Drawing.Point(222, 20);
-            this.cmbPedidoDir.Name = "cmbPedidoDir";
-            this.cmbPedidoDir.Size = new System.Drawing.Size(316, 23);
-            this.cmbPedidoDir.TabIndex = 1;
-            // 
-            // label19
-            // 
-            this.label19.Location = new System.Drawing.Point(129, 58);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(500, 35);
-            this.label19.TabIndex = 2;
-            this.label19.Text = "si su direccion de envio no aparece, por favor ingresarla en la pestaña correspon" +
-                                "diente\r\n";
-            // 
-            // cmbPedidoProd
-            // 
-            this.cmbPedidoProd.FormattingEnabled = true;
-            this.cmbPedidoProd.Location = new System.Drawing.Point(97, 103);
-            this.cmbPedidoProd.Name = "cmbPedidoProd";
-            this.cmbPedidoProd.Size = new System.Drawing.Size(226, 23);
-            this.cmbPedidoProd.TabIndex = 3;
-            // 
-            // label20
-            // 
-            this.label20.Location = new System.Drawing.Point(18, 106);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(73, 35);
-            this.label20.TabIndex = 4;
-            this.label20.Text = "Producto:";
-            // 
-            // btnEnviarPed
-            // 
-            this.btnEnviarPed.BackColor = System.Drawing.Color.White;
-            this.btnEnviarPed.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular,
+            this.btnAgragarDir.BackColor = System.Drawing.Color.White;
+            this.btnAgragarDir.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.btnEnviarPed.ForeColor = System.Drawing.Color.Navy;
-            this.btnEnviarPed.Location = new System.Drawing.Point(567, 96);
-            this.btnEnviarPed.Name = "btnEnviarPed";
-            this.btnEnviarPed.Size = new System.Drawing.Size(150, 40);
-            this.btnEnviarPed.TabIndex = 28;
-            this.btnEnviarPed.Text = "Pedir envío";
-            this.btnEnviarPed.UseVisualStyleBackColor = false;
-            this.btnEnviarPed.Click += new System.EventHandler(this.button1_Click_1);
+            this.btnAgragarDir.ForeColor = System.Drawing.Color.Navy;
+            this.btnAgragarDir.Location = new System.Drawing.Point(306, 228);
+            this.btnAgragarDir.Name = "btnAgragarDir";
+            this.btnAgragarDir.Size = new System.Drawing.Size(150, 40);
+            this.btnAgragarDir.TabIndex = 27;
+            this.btnAgragarDir.Text = "Agregar";
+            this.btnAgragarDir.UseVisualStyleBackColor = false;
+            this.btnAgragarDir.Click += new System.EventHandler(this.btnAgragarDir_Click);
             // 
-            // dtpFechaPedido
+            // txtNuevaDir
             // 
-            this.dtpFechaPedido.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpFechaPedido.Location = new System.Drawing.Point(393, 103);
-            this.dtpFechaPedido.Name = "dtpFechaPedido";
-            this.dtpFechaPedido.Size = new System.Drawing.Size(124, 23);
-            this.dtpFechaPedido.TabIndex = 29;
+            this.txtNuevaDir.Location = new System.Drawing.Point(175, 172);
+            this.txtNuevaDir.Name = "txtNuevaDir";
+            this.txtNuevaDir.Size = new System.Drawing.Size(399, 23);
+            this.txtNuevaDir.TabIndex = 7;
             // 
-            // dgvPedidos
+            // label17
             // 
-            this.dgvPedidos.ColumnHeadersHeightSizeMode =
-                System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvPedidos.Location = new System.Drawing.Point(18, 164);
-            this.dgvPedidos.Name = "dgvPedidos";
-            this.dgvPedidos.Size = new System.Drawing.Size(571, 239);
-            this.dgvPedidos.TabIndex = 30;
+            this.label17.Location = new System.Drawing.Point(31, 168);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(125, 30);
+            this.label17.TabIndex = 6;
+            this.label17.Text = "Nueva dirección de envío:";
+            // 
+            // label15
+            // 
+            this.label15.Location = new System.Drawing.Point(142, 31);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(462, 30);
+            this.label15.TabIndex = 5;
+            this.label15.Text = "Si por alguna razón ha cambiado de dirección, por favor realizar este este cambio" +
+                                "\r\n";
+            // 
+            // label14
+            // 
+            this.label14.Location = new System.Drawing.Point(31, 102);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(125, 30);
+            this.label14.TabIndex = 4;
+            this.label14.Text = "Dirección de envío:";
+            // 
+            // cmbNuevaDir
+            // 
+            this.cmbNuevaDir.FormattingEnabled = true;
+            this.cmbNuevaDir.Location = new System.Drawing.Point(171, 102);
+            this.cmbNuevaDir.Name = "cmbNuevaDir";
+            this.cmbNuevaDir.Size = new System.Drawing.Size(404, 23);
+            this.cmbNuevaDir.TabIndex = 3;
+            // 
+            // tabPage9
+            // 
+            this.tabPage9.Controls.Add(this.button1);
+            this.tabPage9.Controls.Add(this.dgvPedidos);
+            this.tabPage9.Controls.Add(this.dtpFechaPedido);
+            this.tabPage9.Controls.Add(this.btnEnviarPed);
+            this.tabPage9.Controls.Add(this.label20);
+            this.tabPage9.Controls.Add(this.cmbPedidoProd);
+            this.tabPage9.Controls.Add(this.label19);
+            this.tabPage9.Controls.Add(this.cmbPedidoDir);
+            this.tabPage9.Controls.Add(this.label18);
+            this.tabPage9.Location = new System.Drawing.Point(4, 22);
+            this.tabPage9.Name = "tabPage9";
+            this.tabPage9.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage9.Size = new System.Drawing.Size(751, 421);
+            this.tabPage9.TabIndex = 8;
+            this.tabPage9.Text = "Solicitar pedido";
+            this.tabPage9.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
@@ -859,34 +787,105 @@ namespace Hugo_DeliveryApp
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click_2);
             // 
+            // dgvPedidos
+            // 
+            this.dgvPedidos.ColumnHeadersHeightSizeMode =
+                System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvPedidos.Location = new System.Drawing.Point(17, 164);
+            this.dgvPedidos.Name = "dgvPedidos";
+            this.dgvPedidos.Size = new System.Drawing.Size(570, 239);
+            this.dgvPedidos.TabIndex = 30;
+            // 
+            // dtpFechaPedido
+            // 
+            this.dtpFechaPedido.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpFechaPedido.Location = new System.Drawing.Point(393, 103);
+            this.dtpFechaPedido.Name = "dtpFechaPedido";
+            this.dtpFechaPedido.Size = new System.Drawing.Size(124, 23);
+            this.dtpFechaPedido.TabIndex = 29;
+            // 
+            // btnEnviarPed
+            // 
+            this.btnEnviarPed.BackColor = System.Drawing.Color.White;
+            this.btnEnviarPed.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular,
+                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.btnEnviarPed.ForeColor = System.Drawing.Color.Navy;
+            this.btnEnviarPed.Location = new System.Drawing.Point(567, 96);
+            this.btnEnviarPed.Name = "btnEnviarPed";
+            this.btnEnviarPed.Size = new System.Drawing.Size(150, 40);
+            this.btnEnviarPed.TabIndex = 28;
+            this.btnEnviarPed.Text = "Pedir envío";
+            this.btnEnviarPed.UseVisualStyleBackColor = false;
+            this.btnEnviarPed.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // label20
+            // 
+            this.label20.Location = new System.Drawing.Point(17, 106);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(73, 35);
+            this.label20.TabIndex = 4;
+            this.label20.Text = "Producto:";
+            // 
+            // cmbPedidoProd
+            // 
+            this.cmbPedidoProd.FormattingEnabled = true;
+            this.cmbPedidoProd.Location = new System.Drawing.Point(97, 103);
+            this.cmbPedidoProd.Name = "cmbPedidoProd";
+            this.cmbPedidoProd.Size = new System.Drawing.Size(226, 23);
+            this.cmbPedidoProd.TabIndex = 3;
+            // 
+            // label19
+            // 
+            this.label19.Location = new System.Drawing.Point(129, 58);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(500, 35);
+            this.label19.TabIndex = 2;
+            this.label19.Text = "si su direccion de envio no aparece, por favor ingresarla en la pestaña correspon" +
+                                "diente\r\n";
+            // 
+            // cmbPedidoDir
+            // 
+            this.cmbPedidoDir.FormattingEnabled = true;
+            this.cmbPedidoDir.Location = new System.Drawing.Point(222, 20);
+            this.cmbPedidoDir.Name = "cmbPedidoDir";
+            this.cmbPedidoDir.Size = new System.Drawing.Size(315, 23);
+            this.cmbPedidoDir.TabIndex = 1;
+            // 
+            // label18
+            // 
+            this.label18.Location = new System.Drawing.Point(17, 23);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(210, 35);
+            this.label18.TabIndex = 0;
+            this.label18.Text = "Seleccione su dirección de envío:";
+            // 
             // tabPage10
             // 
             this.tabPage10.Controls.Add(this.btnEliminarPed);
             this.tabPage10.Controls.Add(this.label22);
             this.tabPage10.Controls.Add(this.txtPedidoDelete);
             this.tabPage10.Controls.Add(this.label21);
-            this.tabPage10.Location = new System.Drawing.Point(4, 24);
+            this.tabPage10.Location = new System.Drawing.Point(4, 22);
             this.tabPage10.Name = "tabPage10";
             this.tabPage10.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage10.Size = new System.Drawing.Size(751, 419);
+            this.tabPage10.Size = new System.Drawing.Size(751, 421);
             this.tabPage10.TabIndex = 9;
             this.tabPage10.Text = "Eliminar pedido";
             this.tabPage10.UseVisualStyleBackColor = true;
             // 
-            // label21
+            // btnEliminarPed
             // 
-            this.label21.Location = new System.Drawing.Point(28, 62);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(158, 30);
-            this.label21.TabIndex = 0;
-            this.label21.Text = "Ingrese el id de su pedido";
-            // 
-            // txtPedidoDelete
-            // 
-            this.txtPedidoDelete.Location = new System.Drawing.Point(201, 59);
-            this.txtPedidoDelete.Name = "txtPedidoDelete";
-            this.txtPedidoDelete.Size = new System.Drawing.Size(129, 23);
-            this.txtPedidoDelete.TabIndex = 1;
+            this.btnEliminarPed.BackColor = System.Drawing.Color.White;
+            this.btnEliminarPed.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular,
+                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.btnEliminarPed.ForeColor = System.Drawing.Color.Navy;
+            this.btnEliminarPed.Location = new System.Drawing.Point(162, 153);
+            this.btnEliminarPed.Name = "btnEliminarPed";
+            this.btnEliminarPed.Size = new System.Drawing.Size(159, 40);
+            this.btnEliminarPed.TabIndex = 32;
+            this.btnEliminarPed.Text = "Eliminar este pedido";
+            this.btnEliminarPed.UseVisualStyleBackColor = false;
+            this.btnEliminarPed.Click += new System.EventHandler(this.btnEliminarPed_Click);
             // 
             // label22
             // 
@@ -896,40 +895,32 @@ namespace Hugo_DeliveryApp
             this.label22.TabIndex = 2;
             this.label22.Text = "Favor, si no se lo sabe consultar en la pestaña anterior";
             // 
-            // btnEliminarPed
+            // txtPedidoDelete
             // 
-            this.btnEliminarPed.BackColor = System.Drawing.Color.White;
-            this.btnEliminarPed.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.btnEliminarPed.ForeColor = System.Drawing.Color.Navy;
-            this.btnEliminarPed.Location = new System.Drawing.Point(162, 154);
-            this.btnEliminarPed.Name = "btnEliminarPed";
-            this.btnEliminarPed.Size = new System.Drawing.Size(159, 40);
-            this.btnEliminarPed.TabIndex = 32;
-            this.btnEliminarPed.Text = "Eliminar este pedido";
-            this.btnEliminarPed.UseVisualStyleBackColor = false;
-            this.btnEliminarPed.Click += new System.EventHandler(this.btnEliminarPed_Click);
+            this.txtPedidoDelete.Location = new System.Drawing.Point(201, 59);
+            this.txtPedidoDelete.Name = "txtPedidoDelete";
+            this.txtPedidoDelete.Size = new System.Drawing.Size(129, 23);
+            this.txtPedidoDelete.TabIndex = 1;
+            // 
+            // label21
+            // 
+            this.label21.Location = new System.Drawing.Point(28, 62);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(157, 30);
+            this.label21.TabIndex = 0;
+            this.label21.Text = "Ingrese el id de su pedido";
             // 
             // tabPage11
             // 
             this.tabPage11.Controls.Add(this.btnVerPedidos);
             this.tabPage11.Controls.Add(this.dgvPedidosAdmin);
-            this.tabPage11.Location = new System.Drawing.Point(4, 24);
+            this.tabPage11.Location = new System.Drawing.Point(4, 22);
             this.tabPage11.Name = "tabPage11";
             this.tabPage11.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage11.Size = new System.Drawing.Size(751, 419);
+            this.tabPage11.Size = new System.Drawing.Size(751, 421);
             this.tabPage11.TabIndex = 10;
             this.tabPage11.Text = "Ver pedidos";
             this.tabPage11.UseVisualStyleBackColor = true;
-            // 
-            // dgvPedidosAdmin
-            // 
-            this.dgvPedidosAdmin.ColumnHeadersHeightSizeMode =
-                System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvPedidosAdmin.Location = new System.Drawing.Point(40, 122);
-            this.dgvPedidosAdmin.Name = "dgvPedidosAdmin";
-            this.dgvPedidosAdmin.Size = new System.Drawing.Size(672, 282);
-            this.dgvPedidosAdmin.TabIndex = 0;
             // 
             // btnVerPedidos
             // 
@@ -945,17 +936,27 @@ namespace Hugo_DeliveryApp
             this.btnVerPedidos.UseVisualStyleBackColor = false;
             this.btnVerPedidos.Click += new System.EventHandler(this.btnVerPedidos_Click);
             // 
+            // dgvPedidosAdmin
+            // 
+            this.dgvPedidosAdmin.ColumnHeadersHeightSizeMode =
+                System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvPedidosAdmin.Location = new System.Drawing.Point(40, 122);
+            this.dgvPedidosAdmin.Name = "dgvPedidosAdmin";
+            this.dgvPedidosAdmin.Size = new System.Drawing.Size(672, 282);
+            this.dgvPedidosAdmin.TabIndex = 0;
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.MediumVioletRed;
+            this.BackColor = System.Drawing.Color.Purple;
             this.ClientSize = new System.Drawing.Size(785, 512);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.lblBienvenido);
+            this.Icon = ((System.Drawing.Icon) (resources.GetObject("$this.Icon")));
             this.Name = "frmPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "frmPrincipal";
+            this.Text = "Hugo-Menu principal";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmPrincipal_FormClosing);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmPrincipal_FormClosed);
             this.Load += new System.EventHandler(this.frmPrincipal_Load);
@@ -966,17 +967,17 @@ namespace Hugo_DeliveryApp
             this.tabPage2.ResumeLayout(false);
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize) (this.dgvNegocios)).EndInit();
             this.tabPage4.ResumeLayout(false);
             this.tabPage5.ResumeLayout(false);
             this.tabPage5.PerformLayout();
-            this.tabPage6.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize) (this.dgvNegocios)).EndInit();
             ((System.ComponentModel.ISupportInitialize) (this.dgvProductos)).EndInit();
+            this.tabPage6.ResumeLayout(false);
             this.tabPage7.ResumeLayout(false);
             this.tabPage7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize) (this.dgvDirecciones)).EndInit();
             this.tabPage8.ResumeLayout(false);
             this.tabPage8.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize) (this.dgvDirecciones)).EndInit();
             this.tabPage9.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize) (this.dgvPedidos)).EndInit();
             this.tabPage10.ResumeLayout(false);

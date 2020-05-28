@@ -19,7 +19,7 @@ namespace Hugo_DeliveryApp
         
         private void poblarControles()
         {
-            // Actualizar ComboBox
+            
             cmbUsuarioInicio.DataSource = null;
             cmbUsuarioInicio.ValueMember = "password";
             cmbUsuarioInicio.DisplayMember = "username";
@@ -46,6 +46,15 @@ namespace Hugo_DeliveryApp
                 MessageBox.Show("¡Contraseña incorrecta!", "Atencion",
                     MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
+        }
+
+
+        private void btnCambiarContra_Click(object sender, EventArgs e)
+        {
+            Usuario u = (Usuario) cmbUsuarioInicio.SelectedItem;
+            frmCambiarContrasena unaVentana = new frmCambiarContrasena(u);
+            unaVentana.ShowDialog();
+            poblarControles();
         }
     }
 }

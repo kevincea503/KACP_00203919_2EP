@@ -35,6 +35,15 @@ namespace Hugo_DeliveryApp
             ConnectioDB.ExecuteNonQuery(sql);
         }
 
+        public static void actualizarContra(string usuario, string nuevaContra)
+        {
+            string sql = String.Format(
+                "UPDATE APPUSER set password='{0}' where username='{1}';",
+                nuevaContra, usuario);
+            
+            ConnectioDB.ExecuteNonQuery(sql);
+        }
+        
         public static void eliminar(string uname)
         {
             string sql = String.Format(
