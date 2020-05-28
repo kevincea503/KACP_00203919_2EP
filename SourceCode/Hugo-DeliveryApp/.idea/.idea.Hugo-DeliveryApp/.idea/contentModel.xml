@@ -7,10 +7,24 @@
       <e p="Hugo-DeliveryApp" t="IncludeRecursive">
         <e p="App.config" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Business.cs" t="Include" />
+        <e p="BusinessDAO.cs" t="Include" />
+        <e p="ConnectioDB.cs" t="Include" />
+        <e p="Direccion.cs" t="Include" />
+        <e p="DireccionDAO.cs" t="Include" />
         <e p="Form1.cs" t="Include" />
         <e p="Form1.Designer.cs" t="Include" />
+        <e p="Form1.resx" t="Include" />
+        <e p="frmPrincipal.cs" t="Include" />
+        <e p="frmPrincipal.Designer.cs" t="Include" />
+        <e p="frmPrincipal.resx" t="Include" />
         <e p="Hugo-DeliveryApp.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive" />
+        <e p="Orden.cs" t="Include" />
+        <e p="OrdenDAO.cs" t="Include" />
+        <e p="packages.config" t="Include" />
+        <e p="Product.cs" t="Include" />
+        <e p="ProductDAO.cs" t="Include" />
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="AssemblyInfo.cs" t="Include" />
@@ -19,6 +33,8 @@
           <e p="Settings.Designer.cs" t="Include" />
           <e p="Settings.settings" t="Include" />
         </e>
+        <e p="Usuario.cs" t="Include" />
+        <e p="UsuarioDAO.cs" t="Include" />
       </e>
       <e p="Hugo-DeliveryApp.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />

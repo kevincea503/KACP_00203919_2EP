@@ -1,16 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a378e31-9360-4089-9c61-2b824ababc65" name="Default Changelist" comment="" />
+    <list default="true" id="0a378e31-9360-4089-9c61-2b824ababc65" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Hugo-DeliveryApp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Hugo-DeliveryApp/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Hugo-DeliveryApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Hugo-DeliveryApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hugo-DeliveryApp/Form1.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hugo-DeliveryApp/Form1.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hugo-DeliveryApp/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hugo-DeliveryApp/Form1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hugo-DeliveryApp/Hugo-DeliveryApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Hugo-DeliveryApp/Hugo-DeliveryApp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hugo-DeliveryApp/obj/Debug/Hugo-DeliveryApp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Hugo-DeliveryApp/obj/Debug/Hugo-DeliveryApp.csprojAssemblyReference.cache" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Hugo-DeliveryApp/OrdenDAO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hugo-DeliveryApp/ConnectioDB.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hugo-DeliveryApp/Orden.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hugo-DeliveryApp/DireccionDAO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hugo-DeliveryApp/Direccion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hugo-DeliveryApp/frmPrincipal.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hugo-DeliveryApp/frmPrincipal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hugo-DeliveryApp/BusinessDAO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hugo-DeliveryApp/Business.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hugo-DeliveryApp/ProductDAO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hugo-DeliveryApp/Product.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hugo-DeliveryApp/Usuario.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hugo-DeliveryApp/UsuarioDAO.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hugo-DeliveryApp/Form1.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Hugo-DeliveryApp/ConnectioDB.cs" />
+        <option value="$PROJECT_DIR$/Hugo-DeliveryApp/Form1.cs" />
+        <option value="$PROJECT_DIR$/Hugo-DeliveryApp/frmPrincipal.Designer.cs" />
+        <option value="$PROJECT_DIR$/Hugo-DeliveryApp/Usuario.cs" />
+        <option value="$PROJECT_DIR$/Hugo-DeliveryApp/BusinessDAO.cs" />
+        <option value="$PROJECT_DIR$/Hugo-DeliveryApp/Business.cs" />
+        <option value="$PROJECT_DIR$/Hugo-DeliveryApp/Product.cs" />
+        <option value="$PROJECT_DIR$/Hugo-DeliveryApp/ProductDAO.cs" />
+        <option value="$PROJECT_DIR$/Hugo-DeliveryApp/Direccion.cs" />
+        <option value="$PROJECT_DIR$/Hugo-DeliveryApp/UsuarioDAO.cs" />
+        <option value="$PROJECT_DIR$/Hugo-DeliveryApp/DireccionDAO.cs" />
+        <option value="$PROJECT_DIR$/Hugo-DeliveryApp/Orden.cs" />
+        <option value="$PROJECT_DIR$/Hugo-DeliveryApp/OrdenDAO.cs" />
+        <option value="$PROJECT_DIR$/Hugo-DeliveryApp/frmPrincipal.cs" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1cUtA9TnP2lbZV2mIS86SEshsa9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -19,6 +63,7 @@
   <component name="PropertiesComponent">
     <property name="Rider.SolutionExplorerActivator" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TWShift.3" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunManager">
@@ -52,12 +97,43 @@
       <option name="presentableId" value="Default" />
       <updated>1590594868296</updated>
       <workItem from="1590594897096" duration="21000" />
+      <workItem from="1590595150220" duration="9535000" />
+      <workItem from="1590606495680" duration="34127000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1590645795681">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590645795681" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1590645795680">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590645795680" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1590645795680">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590645795680" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1590645795680">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590645795680" />
+  </component>
 </project>
