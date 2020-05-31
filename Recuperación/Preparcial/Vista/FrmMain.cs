@@ -20,7 +20,7 @@ namespace Preparcial.Vista
         {
             if (!txtNewUser.Text.Equals(""))
             {
-                ControladorUsuario.CrearUsuario(txtNewUser.Text);
+                ControladorUsuario.CrearUsuario(txtNewUser.Text, txtNewUser.Text, rbtnAdmin.Checked); // enviandoles los parametros faltantes 
                 ActualizarCrearUsuario();
             }
         }
@@ -50,15 +50,15 @@ namespace Preparcial.Vista
 
         private void bttnAddInventary_Click(object sender, EventArgs e)
         {
-            if (txtProductNameInventary.Text.Equals("") &&
-                txtDescriptionInventary.Text.Equals("") &&
-                txtPriceInventary.Text.Equals("") &&
+            if (txtProductNameInventary.Text.Equals("") ||   // se cambió los && por || porque esta es la validación correcta
+                txtDescriptionInventary.Text.Equals("") ||
+                txtPriceInventary.Text.Equals("") ||
                 txtStockInventary.Text.Equals(""))
                 MessageBox.Show("No puede dejar campos vacios");
             else
             {
                 ControladorInventario.AnadirProducto(txtProductNameInventary.Text, txtDescriptionInventary.Text,
-                    txtPriceInventary.Text, txtStockInventary.Text);
+                    Convert.ToDecimal(txtPriceInventary.Text), Convert.ToInt32(txtStockInventary.Text)); // se convirtió el precio y stock en su respectivo tipo
 
                 ActualizarInventario();
             }
@@ -77,11 +77,12 @@ namespace Preparcial.Vista
 
         private void bttnUpdateStockInventary_Click(object sender, EventArgs e)
         {
-            if (txtUpdateStockIdInventary.Text.Equals("") && txtUpdateStockInventary.Text.Equals(""))
+            if (txtUpdateStockIdInventary.Text.Equals("") || txtUpdateStockInventary.Text.Equals("")) // se cambio los && por ||
                 MessageBox.Show("No puede dejar campos vacios");
             else
             {
-                ControladorInventario.ActualizarProducto(txtUpdateStockIdInventary.Text, txtUpdateStockInventary.Text);
+                ControladorInventario.ActualizarProducto(Convert.ToInt32(txtUpdateStockIdInventary.Text), 
+                    Convert.ToInt32(txtUpdateStockInventary.Text)); // se convirtio el id y stock a su respectivo tipo
                 ActualizarInventario();
             }
         }
@@ -123,5 +124,6 @@ namespace Preparcial.Vista
         {
     Application.Exit();
         }
+        
     }
 }

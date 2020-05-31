@@ -63,12 +63,12 @@ namespace Preparcial.Controlador
             }
         }
 
-        public static void CrearUsuario(string usuario)
+        public static void CrearUsuario(string usuario, string contra, bool tipo) // añdiendo parametros faltantes para crear el usuario
         {
             try
             {
-                ConexionBD.EjecutarComando("INSERT INTO USUARIO(nombreUsuario, contrasenia, tipo)" +
-                    $" VALUES('{usuario}', '{usuario}', false)");
+                ConexionBD.EjecutarComando("INSERT INTO USUARIO(nombre, contrasenia, tipo)" +   // cambiando nombreUsuario a nombre, ya que así se ha definido en la base de datos
+                    $" VALUES('{usuario}', '{contra}', {tipo})");
 
                 MessageBox.Show("Se ha agregado el nuevo usuario, contrasenia igual al nombre");
             }

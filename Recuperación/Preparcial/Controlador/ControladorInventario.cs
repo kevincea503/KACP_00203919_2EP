@@ -43,11 +43,11 @@ namespace Preparcial.Controlador
                 {
                     productos.Add(new Inventario
                         (
-                            dr[0].ToString(),
+                            Convert.ToInt32(dr[0].ToString()), // el idArticulo convirtió a entero
                             dr[1].ToString(),
                             dr[2].ToString(),
-                            dr[3].ToString(),
-                            dr[4].ToString()
+                            Convert.ToDecimal(dr[3].ToString()),  //el precio se convirtió a decimal
+                            Convert.ToInt32(dr[4].ToString()) //el stock se convirtió a entero
                         )
                     );
                 }
@@ -61,11 +61,11 @@ namespace Preparcial.Controlador
         }
 
         // Metodo para anadir productos
-        public static void AnadirProducto(string nombre, string descripcion, string precio, string stock)
+        public static void AnadirProducto(string nombre, string descripcion, decimal precio, int stock)
         {
             try
             {
-                ConexionBD.EjecutarComando("INSERT INTO INVENTARIO(nombreArticulo, descripcion, precio, stock)" +
+                ConexionBD.EjecutarComando("INSERT INTO INVENTARIO(nombreart, descripcion, precio, stock)" +  // se cambió nombreArticulo a nombreart, ya que así se definió en la base de datos
                     $" VALUES('{nombre}', '{descripcion}', {precio}, {stock})");
 
                 MessageBox.Show("Se ha agregado el producto");
@@ -92,11 +92,12 @@ namespace Preparcial.Controlador
         }
 
         // Metodo para actualizar stock de un producto
-        public static void ActualizarProducto(string id, string stock)
+        public static void ActualizarProducto(int id, int stock)
         {
             try
             {
-                ConexionBD.EjecutarComando($"UPDATE INVENTARIO SET stock = {stock} WHERE idArticulo = {id}");
+                ConexionBD.EjecutarComando($"UPDATE INVENTARIO SET stock = {stock} WHERE idarticulo = {id}");
+                // se cambio idArticulo a idarticulo, ya que así se definió en la base de datos
 
                 MessageBox.Show("Se ha actualizado el producto");
             }
