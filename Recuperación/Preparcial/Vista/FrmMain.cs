@@ -38,14 +38,17 @@ namespace Preparcial.Vista
         private void ActualizarOrdenes()
         {
             dgvAllOrders.DataSource = ControladorPedido.GetPedidosTable();
+            
         }
 
         private void ActualizarOrdenesUsuario()
         {
-            dgvMyOrders.DataSource = ControladorPedido.GetPedidosUsuarioTable(u.IdUsuario);
-            cmbProductMakeOrder.ValueMember = "idarticulo";
+            cmbProductMakeOrder.DataSource = null;
+            cmbProductMakeOrder.ValueMember = "idArticulo";   // se cambió idarticulo a idArticulo
             cmbProductMakeOrder.DisplayMember = "producto";
             cmbProductMakeOrder.DataSource = ControladorInventario.GetProductos();
+            dgvMyOrders.DataSource = ControladorPedido.GetPedidosUsuarioTable(u.IdUsuario);
+
         }
 
         private void bttnAddInventary_Click(object sender, EventArgs e)
@@ -93,7 +96,10 @@ namespace Preparcial.Vista
                 MessageBox.Show("No puede dejar campos vacios");
             else
             {
-                ControladorPedido.HacerPedido(u.IdUsuario, cmbProductMakeOrder.SelectedValue.ToString(), txtMakeOrderQuantity.Text);
+                
+                ControladorPedido.HacerPedido(u.IdUsuario, 
+                    Convert.ToInt32(cmbProductMakeOrder.SelectedValue.ToString()), 
+                    Convert.ToInt32(txtMakeOrderQuantity.Text)); // se convirtieron a entero
                 ActualizarOrdenesUsuario();
             }
         }
@@ -112,10 +118,15 @@ namespace Preparcial.Vista
             else if (tabControl1.SelectedTab.Name.Equals("viewOrdersTab") && u.Admin)
                 ActualizarOrdenes();
             
+            else if (tabControl1.SelectedTab.Name.Equals("generalTab") && (u.Admin || !u.Admin))
+                tabControl1.SelectedTab = tabControl1.TabPages[0];   // se agregó esta condicion para que todos los usuarios tengan acceso a la pestaña general
+            
             else
             {
                 MessageBox.Show("No tiene permisos para ver esta pestana");
                 tabControl1.SelectedTab = tabControl1.TabPages[0];
+               
+
             }
 
         }

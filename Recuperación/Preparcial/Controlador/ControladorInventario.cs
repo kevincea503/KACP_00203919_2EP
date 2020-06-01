@@ -18,7 +18,7 @@ namespace Preparcial.Controlador
             {
                 productos = ConexionBD.EjecutarConsulta("SELECT * FROM INVENTARIO");
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 MessageBox.Show("Ha ocurrido un error");
             }
@@ -33,30 +33,30 @@ namespace Preparcial.Controlador
             var productos = new List<Inventario>();
             DataTable dt = null;
 
+
             try
-            {
+            { 
                 // Consulta para llenar el DataTable
                 dt = ConexionBD.EjecutarConsulta("SELECT * FROM INVENTARIO");
 
                 // Por cada fila del DataTable, crear un nuevo usuario anadiendolo a la lista
-                foreach(DataRow dr in dt.Rows)
+                foreach (DataRow dr in dt.Rows)
                 {
                     productos.Add(new Inventario
-                        (
-                            Convert.ToInt32(dr[0].ToString()), // el idArticulo convirtió a entero
-                            dr[1].ToString(),
-                            dr[2].ToString(),
-                            Convert.ToDecimal(dr[3].ToString()),  //el precio se convirtió a decimal
-                            Convert.ToInt32(dr[4].ToString()) //el stock se convirtió a entero
-                        )
-                    );
+                    (
+                        Convert.ToInt32(dr[0].ToString()), // el idArticulo convirtió a entero
+                        dr[1].ToString(),
+                        dr[2].ToString(),
+                        Convert.ToDecimal(dr[3].ToString()), //el precio se convirtió a decimal
+                        Convert.ToInt32(dr[4].ToString()) //el stock se convirtió a entero
+                    )
+                  );
                 }
             }
             catch (Exception ex)
             {
                 MessageBox.Show("Ha ocurrido un error");
             }
-
             return productos;
         }
 
@@ -81,13 +81,13 @@ namespace Preparcial.Controlador
         {
             try
             {
-                ConexionBD.EjecutarComando($"DELETE FROM INVENTARIO WHERE idArticulo = {id}");
+                ConexionBD.EjecutarComando($"DELETE FROM INVENTARIO WHERE idarticulo = {id}");
 
                 MessageBox.Show("Se ha eliminado el producto");
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Ha ocurrido un error");
+                MessageBox.Show("Ha ocurrido un error" + ex.Message);
             }
         }
 

@@ -11,19 +11,22 @@ namespace Preparcial.Controlador
             DataTable pedidos = null;
 
             try
-            {
-                pedidos = ConexionBD.EjecutarConsulta("SELECT p.idPedido, i.nombreArticulo, p.cantidad, i.precio, (i.precio * p.cantidad) AS total" +
-                                            " FROM PEDIDO p, INVENTARIO i, USUARIO u" +
-                                            " WHERE p.idArticulo = i.idArticulo" +
-                                            " AND p.idUsuario = u.idUsuario" +
-                                            $" AND u.idUsuario = {id}");
+            { 
+                pedidos = ConexionBD.EjecutarConsulta(
+                    "SELECT p.idPedido, i.nombreart, p.cantidad, i.precio, (i.precio * p.cantidad) AS total" +
+                    " FROM PEDIDO p, INVENTARIO i, USUARIO u" + // se cambió nombreArticulo a nombreart
+                    " WHERE p.idArticulo = i.idarticulo" + // cambiando idArticulo a idarticulo y idArticulo a idarticulo 
+                    " AND p.idusuario = u.idusuario" +  // se cambió idUsuario a idusuario
+                    $" AND u.idusuario = {id}");
+                
+            
             }
-            catch (Exception ex)
+            catch (Exception e)
             {
                 MessageBox.Show("Ha ocurrido un error");
             }
-
             return pedidos;
+
         }
 
         public static DataTable GetPedidosTable()
@@ -32,10 +35,10 @@ namespace Preparcial.Controlador
 
             try
             {
-                pedidos = ConexionBD.EjecutarConsulta("SELECT p.idPedido, i.nombreArticulo, p.cantidad, i.precio, (i.precio * p.cantidad) AS total" +
+                pedidos = ConexionBD.EjecutarConsulta("SELECT p.idPedido, i.nombreart, p.cantidad, i.precio, (i.precio * p.cantidad) AS total" +
                                             " FROM PEDIDO p, INVENTARIO i, USUARIO u" +
-                                            " WHERE p.idArticulo = i.idArticulo" +
-                                            " AND p.idUsuario = u.idUsuario");
+                                            " WHERE p.idPedido = i.idarticulo" +
+                                            " AND p.idusuario = u.idusuario");
             }
             catch (Exception ex)
             {
@@ -45,12 +48,12 @@ namespace Preparcial.Controlador
             return pedidos;
         }
 
-        public static void HacerPedido(int idUsuario, string idArticulo, string cantidad)
+        public static void HacerPedido(int idUsuario, int idArticulo, int cantidad) // se cambiaron los tipos de variables a enteras
         {
             try
             {
-                ConexionBD.EjecutarComando("INSERT INTO PEDIDO(idUsuario, idArticulo, cantidad) " +
-                    $"VALUES({idUsuario}, {idArticulo}, {cantidad})");
+                ConexionBD.EjecutarComando("INSERT INTO PEDIDO(idUsuario, idarticulo, cantidad) " + //se cambio idUsuario a idusuario
+                    $"VALUES({idUsuario}, {idArticulo}, {cantidad})");                              // idArticulo a idarticulo
             }
             catch (Exception ex)
             {

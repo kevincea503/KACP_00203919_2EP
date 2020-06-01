@@ -32,6 +32,9 @@
             this.generalTab = new System.Windows.Forms.TabPage();
             this.label1 = new System.Windows.Forms.Label();
             this.createNewUserTab = new System.Windows.Forms.TabPage();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.rbtnAdmin = new System.Windows.Forms.RadioButton();
+            this.label12 = new System.Windows.Forms.Label();
             this.bttnCreateUser = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.txtNewUser = new System.Windows.Forms.TextBox();
@@ -68,9 +71,6 @@
             this.cmbProductMakeOrder = new System.Windows.Forms.ComboBox();
             this.viewOrdersTab = new System.Windows.Forms.TabPage();
             this.dgvAllOrders = new System.Windows.Forms.DataGridView();
-            this.label12 = new System.Windows.Forms.Label();
-            this.rbtnAdmin = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.tabControl1.SuspendLayout();
             this.generalTab.SuspendLayout();
             this.createNewUserTab.SuspendLayout();
@@ -95,7 +95,7 @@
             this.tabControl1.Controls.Add(this.createOrderTab);
             this.tabControl1.Controls.Add(this.viewOrdersTab);
             this.tabControl1.Location = new System.Drawing.Point(10, 103);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(2);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(756, 361);
@@ -107,9 +107,9 @@
             this.generalTab.BackColor = System.Drawing.Color.Transparent;
             this.generalTab.Controls.Add(this.label1);
             this.generalTab.Location = new System.Drawing.Point(4, 24);
-            this.generalTab.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.generalTab.Margin = new System.Windows.Forms.Padding(2);
             this.generalTab.Name = "generalTab";
-            this.generalTab.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.generalTab.Padding = new System.Windows.Forms.Padding(2);
             this.generalTab.Size = new System.Drawing.Size(748, 333);
             this.generalTab.TabIndex = 0;
             this.generalTab.Text = "General";
@@ -135,19 +135,49 @@
             this.createNewUserTab.Controls.Add(this.label2);
             this.createNewUserTab.Controls.Add(this.txtNewUser);
             this.createNewUserTab.Controls.Add(this.dgvCreateUser);
-            this.createNewUserTab.Location = new System.Drawing.Point(4, 24);
-            this.createNewUserTab.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.createNewUserTab.Location = new System.Drawing.Point(4, 22);
+            this.createNewUserTab.Margin = new System.Windows.Forms.Padding(2);
             this.createNewUserTab.Name = "createNewUserTab";
-            this.createNewUserTab.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.createNewUserTab.Size = new System.Drawing.Size(748, 333);
+            this.createNewUserTab.Padding = new System.Windows.Forms.Padding(2);
+            this.createNewUserTab.Size = new System.Drawing.Size(748, 335);
             this.createNewUserTab.TabIndex = 1;
             this.createNewUserTab.Text = "Crear usuario";
             this.createNewUserTab.UseVisualStyleBackColor = true;
             // 
+            // radioButton2
+            // 
+            this.radioButton2.Location = new System.Drawing.Point(402, 70);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(104, 24);
+            this.radioButton2.TabIndex = 6;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "cliente";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // rbtnAdmin
+            // 
+            this.rbtnAdmin.Location = new System.Drawing.Point(292, 70);
+            this.rbtnAdmin.Name = "rbtnAdmin";
+            this.rbtnAdmin.Size = new System.Drawing.Size(104, 24);
+            this.rbtnAdmin.TabIndex = 5;
+            this.rbtnAdmin.TabStop = true;
+            this.rbtnAdmin.Text = "Administrado";
+            this.rbtnAdmin.UseVisualStyleBackColor = true;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(168, 75);
+            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(88, 15);
+            this.label12.TabIndex = 4;
+            this.label12.Text = "Tipo de usuario";
+            // 
             // bttnCreateUser
             // 
             this.bttnCreateUser.Location = new System.Drawing.Point(510, 17);
-            this.bttnCreateUser.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bttnCreateUser.Margin = new System.Windows.Forms.Padding(2);
             this.bttnCreateUser.Name = "bttnCreateUser";
             this.bttnCreateUser.Size = new System.Drawing.Size(91, 25);
             this.bttnCreateUser.TabIndex = 3;
@@ -168,7 +198,7 @@
             // txtNewUser
             // 
             this.txtNewUser.Location = new System.Drawing.Point(292, 20);
-            this.txtNewUser.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNewUser.Margin = new System.Windows.Forms.Padding(2);
             this.txtNewUser.Name = "txtNewUser";
             this.txtNewUser.Size = new System.Drawing.Size(173, 23);
             this.txtNewUser.TabIndex = 1;
@@ -180,12 +210,12 @@
             this.dgvCreateUser.ColumnHeadersHeightSizeMode =
                 System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvCreateUser.Location = new System.Drawing.Point(5, 121);
-            this.dgvCreateUser.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgvCreateUser.Margin = new System.Windows.Forms.Padding(2);
             this.dgvCreateUser.Name = "dgvCreateUser";
             this.dgvCreateUser.ReadOnly = true;
             this.dgvCreateUser.RowHeadersWidth = 51;
             this.dgvCreateUser.RowTemplate.Height = 24;
-            this.dgvCreateUser.Size = new System.Drawing.Size(738, 206);
+            this.dgvCreateUser.Size = new System.Drawing.Size(738, 207);
             this.dgvCreateUser.TabIndex = 0;
             // 
             // inventaryTab
@@ -194,10 +224,10 @@
             this.inventaryTab.Controls.Add(this.groupBox2);
             this.inventaryTab.Controls.Add(this.groupBox1);
             this.inventaryTab.Controls.Add(this.dgvInventary);
-            this.inventaryTab.Location = new System.Drawing.Point(4, 24);
-            this.inventaryTab.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.inventaryTab.Location = new System.Drawing.Point(4, 22);
+            this.inventaryTab.Margin = new System.Windows.Forms.Padding(2);
             this.inventaryTab.Name = "inventaryTab";
-            this.inventaryTab.Size = new System.Drawing.Size(748, 333);
+            this.inventaryTab.Size = new System.Drawing.Size(748, 335);
             this.inventaryTab.TabIndex = 2;
             this.inventaryTab.Text = "Inventario";
             this.inventaryTab.UseVisualStyleBackColor = true;
@@ -210,9 +240,9 @@
             this.groupBox3.Controls.Add(this.label9);
             this.groupBox3.Controls.Add(this.label8);
             this.groupBox3.Location = new System.Drawing.Point(530, 29);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox3.Size = new System.Drawing.Size(206, 98);
             this.groupBox3.TabIndex = 1;
             this.groupBox3.TabStop = false;
@@ -221,7 +251,7 @@
             // bttnUpdateStockInventary
             // 
             this.bttnUpdateStockInventary.Location = new System.Drawing.Point(5, 62);
-            this.bttnUpdateStockInventary.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bttnUpdateStockInventary.Margin = new System.Windows.Forms.Padding(2);
             this.bttnUpdateStockInventary.Name = "bttnUpdateStockInventary";
             this.bttnUpdateStockInventary.Size = new System.Drawing.Size(192, 27);
             this.bttnUpdateStockInventary.TabIndex = 2;
@@ -232,7 +262,7 @@
             // txtUpdateStockInventary
             // 
             this.txtUpdateStockInventary.Location = new System.Drawing.Point(167, 29);
-            this.txtUpdateStockInventary.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtUpdateStockInventary.Margin = new System.Windows.Forms.Padding(2);
             this.txtUpdateStockInventary.Name = "txtUpdateStockInventary";
             this.txtUpdateStockInventary.Size = new System.Drawing.Size(31, 23);
             this.txtUpdateStockInventary.TabIndex = 0;
@@ -240,7 +270,7 @@
             // txtUpdateStockIdInventary
             // 
             this.txtUpdateStockIdInventary.Location = new System.Drawing.Point(79, 31);
-            this.txtUpdateStockIdInventary.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtUpdateStockIdInventary.Margin = new System.Windows.Forms.Padding(2);
             this.txtUpdateStockIdInventary.Name = "txtUpdateStockIdInventary";
             this.txtUpdateStockIdInventary.Size = new System.Drawing.Size(31, 23);
             this.txtUpdateStockIdInventary.TabIndex = 0;
@@ -271,9 +301,9 @@
             this.groupBox2.Controls.Add(this.txtDeleteInventary);
             this.groupBox2.Controls.Add(this.label6);
             this.groupBox2.Location = new System.Drawing.Point(366, 29);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox2.Size = new System.Drawing.Size(142, 98);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
@@ -282,7 +312,7 @@
             // bttnDeleteInventary
             // 
             this.bttnDeleteInventary.Location = new System.Drawing.Point(5, 62);
-            this.bttnDeleteInventary.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bttnDeleteInventary.Margin = new System.Windows.Forms.Padding(2);
             this.bttnDeleteInventary.Name = "bttnDeleteInventary";
             this.bttnDeleteInventary.Size = new System.Drawing.Size(132, 27);
             this.bttnDeleteInventary.TabIndex = 2;
@@ -293,7 +323,7 @@
             // txtDeleteInventary
             // 
             this.txtDeleteInventary.Location = new System.Drawing.Point(79, 31);
-            this.txtDeleteInventary.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtDeleteInventary.Margin = new System.Windows.Forms.Padding(2);
             this.txtDeleteInventary.Name = "txtDeleteInventary";
             this.txtDeleteInventary.Size = new System.Drawing.Size(58, 23);
             this.txtDeleteInventary.TabIndex = 0;
@@ -320,9 +350,9 @@
             this.groupBox1.Controls.Add(this.txtStockInventary);
             this.groupBox1.Controls.Add(this.txtProductNameInventary);
             this.groupBox1.Location = new System.Drawing.Point(14, 29);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox1.Size = new System.Drawing.Size(346, 98);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
@@ -331,7 +361,7 @@
             // bttnAddInventary
             // 
             this.bttnAddInventary.Location = new System.Drawing.Point(275, 25);
-            this.bttnAddInventary.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bttnAddInventary.Margin = new System.Windows.Forms.Padding(2);
             this.bttnAddInventary.Name = "bttnAddInventary";
             this.bttnAddInventary.Size = new System.Drawing.Size(58, 62);
             this.bttnAddInventary.TabIndex = 2;
@@ -382,7 +412,7 @@
             // txtDescriptionInventary
             // 
             this.txtDescriptionInventary.Location = new System.Drawing.Point(86, 73);
-            this.txtDescriptionInventary.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtDescriptionInventary.Margin = new System.Windows.Forms.Padding(2);
             this.txtDescriptionInventary.Name = "txtDescriptionInventary";
             this.txtDescriptionInventary.Size = new System.Drawing.Size(103, 23);
             this.txtDescriptionInventary.TabIndex = 0;
@@ -390,7 +420,7 @@
             // txtPriceInventary
             // 
             this.txtPriceInventary.Location = new System.Drawing.Point(86, 46);
-            this.txtPriceInventary.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtPriceInventary.Margin = new System.Windows.Forms.Padding(2);
             this.txtPriceInventary.Name = "txtPriceInventary";
             this.txtPriceInventary.Size = new System.Drawing.Size(103, 23);
             this.txtPriceInventary.TabIndex = 0;
@@ -398,7 +428,7 @@
             // txtStockInventary
             // 
             this.txtStockInventary.Location = new System.Drawing.Point(202, 43);
-            this.txtStockInventary.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtStockInventary.Margin = new System.Windows.Forms.Padding(2);
             this.txtStockInventary.Name = "txtStockInventary";
             this.txtStockInventary.Size = new System.Drawing.Size(58, 23);
             this.txtStockInventary.TabIndex = 0;
@@ -406,7 +436,7 @@
             // txtProductNameInventary
             // 
             this.txtProductNameInventary.Location = new System.Drawing.Point(86, 20);
-            this.txtProductNameInventary.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtProductNameInventary.Margin = new System.Windows.Forms.Padding(2);
             this.txtProductNameInventary.Name = "txtProductNameInventary";
             this.txtProductNameInventary.Size = new System.Drawing.Size(103, 23);
             this.txtProductNameInventary.TabIndex = 0;
@@ -416,7 +446,7 @@
             this.dgvInventary.ColumnHeadersHeightSizeMode =
                 System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvInventary.Location = new System.Drawing.Point(14, 148);
-            this.dgvInventary.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgvInventary.Margin = new System.Windows.Forms.Padding(2);
             this.dgvInventary.Name = "dgvInventary";
             this.dgvInventary.RowHeadersWidth = 51;
             this.dgvInventary.RowTemplate.Height = 24;
@@ -426,10 +456,10 @@
             // createOrderTab
             // 
             this.createOrderTab.Controls.Add(this.groupBox4);
-            this.createOrderTab.Location = new System.Drawing.Point(4, 24);
-            this.createOrderTab.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.createOrderTab.Location = new System.Drawing.Point(4, 22);
+            this.createOrderTab.Margin = new System.Windows.Forms.Padding(2);
             this.createOrderTab.Name = "createOrderTab";
-            this.createOrderTab.Size = new System.Drawing.Size(748, 333);
+            this.createOrderTab.Size = new System.Drawing.Size(748, 335);
             this.createOrderTab.TabIndex = 4;
             this.createOrderTab.Text = "Hacer pedido/Ver mis pedidos";
             this.createOrderTab.UseVisualStyleBackColor = true;
@@ -443,9 +473,9 @@
             this.groupBox4.Controls.Add(this.label10);
             this.groupBox4.Controls.Add(this.cmbProductMakeOrder);
             this.groupBox4.Location = new System.Drawing.Point(16, 43);
-            this.groupBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox4.Size = new System.Drawing.Size(716, 278);
             this.groupBox4.TabIndex = 0;
             this.groupBox4.TabStop = false;
@@ -456,7 +486,7 @@
             this.dgvMyOrders.ColumnHeadersHeightSizeMode =
                 System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvMyOrders.Location = new System.Drawing.Point(5, 75);
-            this.dgvMyOrders.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgvMyOrders.Margin = new System.Windows.Forms.Padding(2);
             this.dgvMyOrders.Name = "dgvMyOrders";
             this.dgvMyOrders.RowHeadersWidth = 51;
             this.dgvMyOrders.RowTemplate.Height = 24;
@@ -466,7 +496,7 @@
             // bttnMakeOrder
             // 
             this.bttnMakeOrder.Location = new System.Drawing.Point(540, 29);
-            this.bttnMakeOrder.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bttnMakeOrder.Margin = new System.Windows.Forms.Padding(2);
             this.bttnMakeOrder.Name = "bttnMakeOrder";
             this.bttnMakeOrder.Size = new System.Drawing.Size(150, 22);
             this.bttnMakeOrder.TabIndex = 3;
@@ -477,7 +507,7 @@
             // txtMakeOrderQuantity
             // 
             this.txtMakeOrderQuantity.Location = new System.Drawing.Point(350, 32);
-            this.txtMakeOrderQuantity.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtMakeOrderQuantity.Margin = new System.Windows.Forms.Padding(2);
             this.txtMakeOrderQuantity.Name = "txtMakeOrderQuantity";
             this.txtMakeOrderQuantity.Size = new System.Drawing.Size(119, 23);
             this.txtMakeOrderQuantity.TabIndex = 2;
@@ -507,7 +537,7 @@
             this.cmbProductMakeOrder.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbProductMakeOrder.FormattingEnabled = true;
             this.cmbProductMakeOrder.Location = new System.Drawing.Point(89, 28);
-            this.cmbProductMakeOrder.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cmbProductMakeOrder.Margin = new System.Windows.Forms.Padding(2);
             this.cmbProductMakeOrder.Name = "cmbProductMakeOrder";
             this.cmbProductMakeOrder.Size = new System.Drawing.Size(122, 23);
             this.cmbProductMakeOrder.TabIndex = 0;
@@ -515,10 +545,10 @@
             // viewOrdersTab
             // 
             this.viewOrdersTab.Controls.Add(this.dgvAllOrders);
-            this.viewOrdersTab.Location = new System.Drawing.Point(4, 24);
-            this.viewOrdersTab.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.viewOrdersTab.Location = new System.Drawing.Point(4, 22);
+            this.viewOrdersTab.Margin = new System.Windows.Forms.Padding(2);
             this.viewOrdersTab.Name = "viewOrdersTab";
-            this.viewOrdersTab.Size = new System.Drawing.Size(748, 333);
+            this.viewOrdersTab.Size = new System.Drawing.Size(748, 335);
             this.viewOrdersTab.TabIndex = 3;
             this.viewOrdersTab.Text = "Ver pedidos";
             this.viewOrdersTab.UseVisualStyleBackColor = true;
@@ -530,7 +560,7 @@
             this.dgvAllOrders.ColumnHeadersHeightSizeMode =
                 System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvAllOrders.Location = new System.Drawing.Point(10, 15);
-            this.dgvAllOrders.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgvAllOrders.Margin = new System.Windows.Forms.Padding(2);
             this.dgvAllOrders.Name = "dgvAllOrders";
             this.dgvAllOrders.ReadOnly = true;
             this.dgvAllOrders.RowHeadersWidth = 51;
@@ -538,43 +568,13 @@
             this.dgvAllOrders.Size = new System.Drawing.Size(729, 307);
             this.dgvAllOrders.TabIndex = 0;
             // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(168, 75);
-            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(88, 15);
-            this.label12.TabIndex = 4;
-            this.label12.Text = "Tipo de usuario";
-            // 
-            // rbtnAdmin
-            // 
-            this.rbtnAdmin.Location = new System.Drawing.Point(292, 70);
-            this.rbtnAdmin.Name = "rbtnAdmin";
-            this.rbtnAdmin.Size = new System.Drawing.Size(104, 24);
-            this.rbtnAdmin.TabIndex = 5;
-            this.rbtnAdmin.TabStop = true;
-            this.rbtnAdmin.Text = "Administrado";
-            this.rbtnAdmin.UseVisualStyleBackColor = true;
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.Location = new System.Drawing.Point(402, 70);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(104, 24);
-            this.radioButton2.TabIndex = 6;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "cliente";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            // 
             // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(777, 474);
             this.Controls.Add(this.tabControl1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FrmMain";
             this.Text = "FrmMain";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmMain_FormClosing);

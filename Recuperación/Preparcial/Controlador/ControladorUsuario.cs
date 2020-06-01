@@ -13,10 +13,15 @@ namespace Preparcial.Controlador
             var usuarios = new List<Usuario>();
             DataTable tableUsuarios = null;
 
-            // El try catch estaba agarrando un valor nulo del dataTable por eso daba una excepcion.
+            try
+            {
                 tableUsuarios = ConexionBD.EjecutarConsulta("SELECT * FROM USUARIO");
-          
-
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Ha ocurrido un error");
+            }
+            
             foreach(DataRow dr in tableUsuarios.Rows)
             {
                 usuarios.Add(new Usuario
@@ -48,12 +53,12 @@ namespace Preparcial.Controlador
             return tableUsuarios;
         }
 
-        public static void ActualizarContrasena(int idUsuario, int nueva) // se cambio el id usuario de String a entero
-        {                                                                  // Al igaual que la contraseña
+        public static void ActualizarContrasena(int idUsuario, string nueva) // se cambio el id usuario de String a entero
+        {                                                                  
             try
             {
                 ConexionBD.EjecutarComando($"UPDATE USUARIO SET contrasenia = '{nueva}' " +
-                    $"WHERE idUsuario = {idUsuario}");
+                    $"WHERE idusuario = {idUsuario}"); // se cambió idUsuaio a idusuario, así se definió en la base de datos
 
                 MessageBox.Show("Se ha actualizado la contrasena");
             }
